@@ -40,13 +40,12 @@ html, body {
 }
 
 figure {
-	margin: 0px;
+	margin: 1rem 0;
 }
 
 figcaption {
 	font-size: 1rem;
 	color: gray;
-
 }
 
 header,
