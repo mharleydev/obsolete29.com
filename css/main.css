@@ -10,6 +10,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.3rem;
 	line-height: 1.6;
+	display: flex;
+	flex-direction: column;
 }
 
 img {
@@ -39,17 +41,27 @@ ul {
 	margin: 0;
 }
 
-.container {
-	max-width: 760px;
-	margin: 0 auto;
-	padding: 5px
+html, body {
+	height: 100%;
+  }
+
+header,
+footer {
+	background: #9BA17B;
+	height: 60px;
+	padding: 5px 0;
 }
 
-header {
+.header-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 0;
+}
+
+.container {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 1rem;
 }
 
 .header-image {
@@ -65,12 +77,26 @@ nav a:hover {
 	color: #435400;
 }
 
+main {
+	flex: 1 0 auto;
+}
 main p {
 	margin: 1rem 0;
 }
 
 footer {
-	background: #9BA17B;
-	height: 100px;
-	margin-top: 1rem;
+	flex-shrink: 0;
+}
+
+.social-bar {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.social-icons {
+    height: 32px;
+	width: 32px;
+	margin: 0 10px;
+    transition: all .1s ease-in-out;
 }
