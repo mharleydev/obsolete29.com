@@ -26,11 +26,17 @@ p {
 }
 
 a  { 
-	color: #ec3da8;
+	color: #e3bab3;
 }
 
 a:hover {
-	color: #435400;
+	color: #36384c;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .container {
@@ -61,4 +67,10 @@ nav a:hover {
 
 main p {
 	margin: 1rem 0;
+}
+
+footer {
+	background: #9BA17B;
+	height: 100px;
+	margin-top: 1rem;
 }
