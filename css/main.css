@@ -43,7 +43,8 @@ figure {
 	margin: 1rem 0;
 }
 
-figcaption {
+figcaption,
+time {
 	font-size: 1rem;
 	color: gray;
 }
@@ -103,3 +104,25 @@ footer {
 	margin: 0 10px;
     transition: all .1s ease-in-out;
 }
+
+@media screen 
+  and (min-device-width: 768px) { 
+	.post-summary {
+		width: 50%;
+	}
+
+	.post-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.icon-title-post-container {
+	display: flex;
+}
+
+.post-icon {
+	height: 32px;
+	margin-right: .5rem;
+}
+
