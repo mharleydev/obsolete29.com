@@ -122,16 +122,14 @@ footer {
     transition: all .1s ease-in-out;
 }
 
-@media screen 
-  and (min-device-width: 593px) { 
-	.post-summary {
-		width: 50%;
-	}
+.post-summary {
+	width: 50%;
+	flex: 1 1 200px;
+}
 
-	.post-list {
-		display: flex;
-		flex-wrap: wrap;
-	}
+.post-list {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .icon-title-post-container {
