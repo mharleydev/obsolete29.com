@@ -83,7 +83,7 @@ a {
 }
 
 .post-summary-date {
-    color: darkgray;
+    color: #ccc;
 }
 
 @media screen and (max-width: 500px) {
