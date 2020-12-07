@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>My Blog about Boats</title>
-  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <title>My Blog about cats and sometimes development stuff</title>
+  <subtitle>I like cats and computer stuff so tune in if that&#39;s your jam.</subtitle>
   <link href="https://obsolete29.com/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
   <updated>2020-12-05T18:00:00-06:00</updated>
