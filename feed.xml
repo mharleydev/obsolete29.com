@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog about Boats</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <link href="https://obsolete29.com/feed.xml" rel="self"/>
+  <link href="https://obsolete29.com/"/>
+  <updated>2020-12-05T18:00:00-06:00</updated>
+  <id>https://obsolete29.com/</id>
+  <author>
+    <name>Michael Harley</name>
+    <email>mike@obsolete29.com</email>
+  </author>
+  
+  <entry>
+    <title>Lessons learned from my time at Bridgestone</title>
+    <link href="https://obsolete29.com/posts/lessons-learned-from-bridgestone/"/>
+    <updated>2020-09-06T19:00:00-05:00</updated>
+    <id>https://obsolete29.com/posts/lessons-learned-from-bridgestone/</id>
+    <content type="html">&lt;p&gt;After nearly 5 years with Bridgestone, I’ll be leaving the company because of restructuring. Since the announcement, I’ve reflected about my lessons learned that I can take away with me and onto my next opportunity.&lt;/p&gt;
+&lt;h2&gt;Savings&lt;/h2&gt;
+&lt;p&gt;This isn’t really a career thing, but it’s the first thing that came into my mind when I received the news. My savings isn’t great, and I wish I’d done better with my savings leading up to this. I barely have three months of living expenses saved up, but having closer to six sure would make me feel a lot better.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 1: Take savings goals seriously, and having more makes me feel better. My goal is to have 6 months of living expenses.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Work Relationships&lt;/h2&gt;
+&lt;p&gt;I don’t know if this is a company culture thing or just business in general once a company gets to a certain size or you’re at a certain level in your career, but relationships are super important.&lt;/p&gt;
+&lt;p&gt;I think it is a mistake to be the geek in the hoody, preferring the company of servers and code to talking to business teammates. Even if my immediate peers and manager understood how important the work I was doing was and that I’m good at my job and a good teammate, that’s not enough.&lt;/p&gt;
+&lt;p&gt;I don’t want to be a fake, glad handing type, but I think there’s a way to be mindful of relationships that’s genuine.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 2: Be genuine and mindful about relationships at work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Professional Relationships outside of work&lt;/h2&gt;
+&lt;p&gt;Not only do I want to be mindful of my work relationships, I want to be mindful about maintaining professional relationships. Colleagues from previous jobs and people met at conferences or meetups can be a pretty valuable source of job leads when it’s time.&lt;/p&gt;
+&lt;p&gt;Again, I don’t want to be cheesy and fake about these relationships, but I just want to be intentional and genuine. Networking and being part of the developer community just makes sense.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 3: Maintain professional relationships outside of work by being intentional and genuine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Resume&lt;/h2&gt;
+&lt;p&gt;The last time I updated, looked at, or thought about my resume was when I was applying for my job current job—nearly five years ago. I want to be intentional about reviewing my resume regularly. I’m envisioning just keeping a little note of accomplishments that I’m proud of. Maybe I review this note at the end of each week? This will take 5 minutes or less, once a week. Then maybe there’s a quarterly touch point where I’m reviewing my resume and making sure my best accomplishments are listed? In short, I want to keep my resume current and up to date.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 4: Keep my resume current regardless of my current employment status.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;LinkedIn&lt;/h2&gt;
+&lt;p&gt;I see lots of people complaining about the LinkedIn recruiter emails, but I think a different approach is better for me. Even if I’m not looking for any opportunities, I plan to respond to the recruiter emails and connect with them. I want to build my network organically, so if I’m faced with another unexpected layoff, making connections doesn’t seem desperate or self-serving.&lt;/p&gt;
+&lt;p&gt;I think connecting with your immediate manager and peers is a great idea too. I want to do this when start at new places instead of when I’m about to leave!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 5: Build and nurture my professional network with LinkedIn including recruiters.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Github&lt;/h2&gt;
+&lt;p&gt;I’ve been writing PowerShell to solve problems for nearly eight years now. I’ve written functions and snippets for work that I’m proud of, but my workflow has never included using github to store the code. I want to develop a github profile that’s a good reflection of my work. I think having a long history of github work looks really good!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 6: Adjust development workflow to include github.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In conclusion, I think it boils down to having a mindset that assumes I’m about to be laid off. Again, not that I want to be paranoid about it, but I think it’s just good disaster preparedness and mindfulness. I’ll be implementing these takeaways as I seek my next opportunity.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lesson 1: Take savings goals seriously—the more, the better. Have six months of living expenses.&lt;/li&gt;
+&lt;li&gt;Lesson 2: Be genuine and mindful about relationships at work.&lt;/li&gt;
+&lt;li&gt;Lesson 3: Maintain professional relationships outside of work by being intentional and genuine.&lt;/li&gt;
+&lt;li&gt;Lesson 4: Keep my resume current regardless of my current employment status.&lt;/li&gt;
+&lt;li&gt;Lesson 5: Build and nurture my professional network with LinkedIn including recruiters.&lt;/li&gt;
+&lt;li&gt;Lesson 6: Adjust development workflow to include github.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Please meet my cats</title>
+    <link href="https://obsolete29.com/posts/please-meet-my-cats/"/>
+    <updated>2020-12-05T18:00:00-06:00</updated>
+    <id>https://obsolete29.com/posts/please-meet-my-cats/</id>
+    <content type="html">&lt;p&gt;If you follow me on Twitter, then you already know I have three cats. I&#39;d like to introduce you to them now. Thank you.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/faf20966-650.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/faf20966-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/faf20966-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/faf20966-650.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;Photo of Lily on the back patio with an oil lamp flame&quot; width=&quot;650&quot; height=&quot;488&quot; src=&quot;https://obsolete29.com/assets/img/blog/faf20966-350.jpeg&quot;&gt;&lt;/picture&gt;
+    &lt;figcaption&gt;Lily, Princess of Darkness&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Say hello to Lily. Don&#39;t tell the other&#39;s, but she&#39;s my favorite. ☺️&lt;/p&gt;
+&lt;p&gt;Of all my goblins, she&#39;s the most sterotypical &amp;quot;cat&amp;quot;. She&#39;s smart, curious, brave and independant. She&#39;s the first to find and explore any new catification structures I&#39;ve built. She can let herself out the back sliding door if we don&#39;t latch it. Her two favorite spots are out back on the patio or up in her suspended hammack. She likes to wake me up in the morning with tender little biscuits on my side.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/18de9425-650.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/18de9425-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/18de9425-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/18de9425-650.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;Photo of Sammie laying on my desk&quot; width=&quot;650&quot; height=&quot;488&quot; src=&quot;https://obsolete29.com/assets/img/blog/18de9425-350.jpeg&quot;&gt;&lt;/picture&gt;
+    &lt;figcaption&gt;Pretty perfect representation of Sammie&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This is Sammie. He and Lily are siblings. He&#39;s a timid kitty and is easily scared. He&#39;s also equal parts sweet and derpy. Not the smartiest tool in the shed. He plays the fastest and most reckless on the cat steps/shevles. Sometimes he falls off. He&#39;s damanaged a speaker and made a scratch on the wall. In our house, if you&#39;re going to be dumb then you gotta be tough. He likes sitting out back on the patio as well. He also likes to play fetch.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a5524064-650.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a5524064-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a5524064-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a5524064-650.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;Photo of Oliver laying on Rachelle&quot; width=&quot;650&quot; height=&quot;909&quot; src=&quot;https://obsolete29.com/assets/img/blog/a5524064-350.jpeg&quot;&gt;&lt;/picture&gt;
+    &lt;figcaption&gt;Oliver!&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Oliver came to us from our friend Whitney. He just appeared one day and was hanging around her porch for a bit. He was such a sweet kitty, Whitney asked if we wanted a 3rd kitty. We said yes and named him Oliver!&lt;/p&gt;
+&lt;p&gt;The vet said Oliver is 6-7 years old and he certainly comes across as an old man kitty. He meows grumpily when he&#39;s hungry and he sleeps a lot more than the other two. Since he was on the streets for a while, I think he has a different relationship with food. Lily and Sam aren&#39;t urgent eaters. They nible a little bit at a time and can take several hours to eat their food. Oliver, eats all his without breaking and when we were still feeding the other two on the floor, he&#39;d go around and eat theirs too. Oliver doesn&#39;t seem to be as confident with climbing as the other two and he doesn&#39;t use catification shelves and such that I&#39;ve built. That allows us to feed Sam and Lily up high and Oliver on the floor and that&#39;s been working pretty well.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
