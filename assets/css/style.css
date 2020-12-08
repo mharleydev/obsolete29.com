@@ -43,15 +43,25 @@ blockquote {
 }
 
 header {
-    background: #282c34;
-    color: #ffffff;
-    padding-top: 2em;
+    padding-top: 20px;
     padding-bottom: .75em;
     align-items: flex-end;
 }
 
+.page-wave-container {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+}
+
+.page-wave {
+    width: 100%;
+}
+
 .top-nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -59,8 +69,38 @@ header {
     margin-right: 1em;
 }
 
+.top-nav a,
+.post-summary a {
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+    font-family: monospace, monospace;
+}
+
+.logo-mark {
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-size: 1.125rem;
+}
+
 main {
     flex: 1 0 auto;
+}
+
+.lets-connect {
+    background-color: #f1f5f7;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.lets-connect h3,
+.lets-connect p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a {
@@ -69,12 +109,20 @@ a {
 	color: inherit;
 }
 
+.section-header {
+    border-bottom: 1px solid;
+}
+
+.intro p {
+    font-size: 1.1rem;
+}
 .posts h2 {
     margin-bottom: 10px;
 }
 
 .post-summary {
     margin-bottom: 1em;
+    border-bottom: 1px dashed;
 }
 
 .post-summary-title {
@@ -115,6 +163,26 @@ a {
 
 .post-tags {
     padding-top: .5em;
+}
+
+.post-info {
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    line-height: normal;
+    opacity: .6;
+}
+
+.post-info p {
+    margin: 0.8em 0;
+}
+
+.feather {
+    display: inline-block;
+    vertical-align: -.125em;
+    width: 1em;
+    height: 1em;
 }
 
 /* About page */
