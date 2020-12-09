@@ -65,6 +65,10 @@ header {
     justify-content: space-between;
 }
 
+.top-nav-links {
+    letter-spacing: .2em;
+}
+
 .top-nav-link:not(:last-child) {
     margin-right: 1em;
 }
@@ -195,9 +199,29 @@ footer {
     margin-top: 1em;
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: darkgray;
+    background-color: #233742;
     flex-shrink: 0;
+    border-top: 8px solid #b4cddd;
+    color: #b4cddd;
 }
 
+.social-bar {
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
 
+.social-icon {
+    height: 32px;
+	width: 32px;
+	margin: 0 10px;
+    transition: all .1s ease-in-out;
+}
 
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.footer-disclaimer {
+    text-align: center;
+}
