@@ -2,6 +2,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
+    font-display: swap;
     src: local(''),
         url('/assets/fonts/roboto-v20-latin-300.woff2') format('woff2'),
         url('/assets/fonts/roboto-v20-latin-300.woff') format('woff');
@@ -11,6 +12,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src: local(''),
         url('/assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'),
         url('/assets/fonts/roboto-v20-latin-regular.woff') format('woff');
