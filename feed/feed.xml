@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Michael Harley / obsolete29.com</title>
+  <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
+  <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
+  <link href="https://obsolete29.com"/>
+  <updated>2020-12-15T09:59:58-06:00</updated>
+  <id>https://obsolete29.com</id>
+  <author>
+    <name>Michael Harley</name>
+    <email>mike@obsolete29.com</email>
+  </author>
+  
+  <entry>
+    <title>Please meet my cats</title>
+    <link href="https://obsolete29.com/posts/please-meet-my-cats/"/>
+    <updated>2020-12-15T09:59:58-06:00</updated>
+    <id>https://obsolete29.com/posts/please-meet-my-cats/</id>
+    <content type="html">&lt;p&gt;If you follow me on Twitter, then you already know I have three cats. I&#39;d like to introduce you to them now. Thank you.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/612b31ea-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/612b31ea-808.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/612b31ea-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/612b31ea-808.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;Photo of Lily on the back patio with an oil lamp flame&quot; width=&quot;808&quot; height=&quot;606&quot; src=&quot;https://obsolete29.com/assets/img/blog/612b31ea-350.jpeg&quot;&gt;&lt;/picture&gt;
+    &lt;figcaption&gt;Lily, Princess of Darkness&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Say hello to Lily. Don&#39;t tell the other&#39;s, but she&#39;s my favorite. ☺️&lt;/p&gt;
+&lt;p&gt;Of all my goblins, she&#39;s the most sterotypical &amp;quot;cat&amp;quot;. She&#39;s smart, curious, brave and independant. She&#39;s the first to find and explore any new catification structures I&#39;ve built. She can let herself out the back sliding door if we don&#39;t latch it. Her two favorite spots are out back on the patio or up in her suspended hammack. She likes to wake me up in the morning with tender little biscuits on my side.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/d66ed984-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/d66ed984-808.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/d66ed984-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/d66ed984-808.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;Photo of Sammie laying on my desk&quot; width=&quot;808&quot; height=&quot;606&quot; src=&quot;https://obsolete29.com/assets/img/blog/d66ed984-350.jpeg&quot;&gt;&lt;/picture&gt;
+    &lt;figcaption&gt;Pretty perfect representation of Sammie&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This is Sammie. He and Lily are siblings. He&#39;s a timid kitty and is easily scared. He&#39;s also equal parts sweet and derpy. Not the smartiest tool in the shed. He plays the fastest and most reckless on the cat steps/shevles. Sometimes he falls off. He&#39;s damaged a speaker and made a scratch on the wall. In our house, if you&#39;re going to be dumb then you gotta be tough. He likes sitting out back on the patio as well. He also likes to play fetch.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/7a2dff1-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/7a2dff1-808.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/7a2dff1-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/7a2dff1-808.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;Photo of Oliver laying on Rachelle&quot; width=&quot;808&quot; height=&quot;1130&quot; src=&quot;https://obsolete29.com/assets/img/blog/7a2dff1-350.jpeg&quot;&gt;&lt;/picture&gt;
+    &lt;figcaption&gt;Oliver!&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Oliver came to us from our friend Whitney. He just appeared one day and was hanging around her porch for a bit. He was such a sweet kitty, Whitney asked if we wanted a 3rd kitty. We said yes and named him Oliver!&lt;/p&gt;
+&lt;p&gt;The vet said Oliver is 6-7 years old and he certainly comes across as an old man kitty. He meows grumpily when he&#39;s hungry and he sleeps a lot more than the other two. Since he was on the streets for a while, I think he has a different relationship with food. Lily and Sam aren&#39;t urgent eaters. They nible a little bit at a time and can take several hours to eat their food. Oliver, eats all his without breaking and when we were still feeding the other two on the floor, he&#39;d go around and eat theirs too. Oliver doesn&#39;t seem to be as confident with climbing as the other two and he doesn&#39;t use catification shelves and such that I&#39;ve built. That allows us to feed Sam and Lily up high and Oliver on the floor and that&#39;s been working pretty well.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Lessons learned from my time at Bridgestone</title>
+    <link href="https://obsolete29.com/posts/lessons-learned-from-bridgestone/"/>
+    <updated>2020-12-15T09:36:07-06:00</updated>
+    <id>https://obsolete29.com/posts/lessons-learned-from-bridgestone/</id>
+    <content type="html">&lt;p&gt;After nearly 5 years with Bridgestone, I’ll be leaving the company because of restructuring. Since the announcement, I’ve reflected about my lessons learned that I can take away with me and onto my next opportunity.&lt;/p&gt;
+&lt;h2&gt;Savings&lt;/h2&gt;
+&lt;p&gt;This isn’t really a career thing, but it’s the first thing that came into my mind when I received the news. My savings isn’t great, and I wish I’d done better with my savings leading up to this. I barely have three months of living expenses saved up, but having closer to six sure would make me feel a lot better.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 1: Take savings goals seriously, and having more makes me feel better. My goal is to have 6 months of living expenses.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Work Relationships&lt;/h2&gt;
+&lt;p&gt;I don’t know if this is a company culture thing or just business in general once a company gets to a certain size or you’re at a certain level in your career, but relationships are super important.&lt;/p&gt;
+&lt;p&gt;I think it is a mistake to be the geek in the hoody, preferring the company of servers and code to talking to business teammates. Even if my immediate peers and manager understood how important the work I was doing was and that I’m good at my job and a good teammate, that’s not enough.&lt;/p&gt;
+&lt;p&gt;I don’t want to be a fake, glad handing type, but I think there’s a way to be mindful of relationships that’s genuine.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 2: Be genuine and mindful about relationships at work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Professional Relationships outside of work&lt;/h2&gt;
+&lt;p&gt;Not only do I want to be mindful of my work relationships, I want to be mindful about maintaining professional relationships. Colleagues from previous jobs and people met at conferences or meetups can be a pretty valuable source of job leads when it’s time.&lt;/p&gt;
+&lt;p&gt;Again, I don’t want to be cheesy and fake about these relationships, but I just want to be intentional and genuine. Networking and being part of the developer community just makes sense.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 3: Maintain professional relationships outside of work by being intentional and genuine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Resume&lt;/h2&gt;
+&lt;p&gt;The last time I updated, looked at, or thought about my resume was when I was applying for my job current job—nearly five years ago. I want to be intentional about reviewing my resume regularly. I’m envisioning just keeping a little note of accomplishments that I’m proud of. Maybe I review this note at the end of each week? This will take 5 minutes or less, once a week. Then maybe there’s a quarterly touch point where I’m reviewing my resume and making sure my best accomplishments are listed? In short, I want to keep my resume current and up to date.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 4: Keep my resume current regardless of my current employment status.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;LinkedIn&lt;/h2&gt;
+&lt;p&gt;I see lots of people complaining about the LinkedIn recruiter emails, but I think a different approach is better for me. Even if I’m not looking for any opportunities, I plan to respond to the recruiter emails and connect with them. I want to build my network organically, so if I’m faced with another unexpected layoff, making connections doesn’t seem desperate or self-serving.&lt;/p&gt;
+&lt;p&gt;I think connecting with your immediate manager and peers is a great idea too. I want to do this when start at new places instead of when I’m about to leave!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 5: Build and nurture my professional network with LinkedIn including recruiters.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Github&lt;/h2&gt;
+&lt;p&gt;I’ve been writing PowerShell to solve problems for nearly eight years now. I’ve written functions and snippets for work that I’m proud of, but my workflow has never included using github to store the code. I want to develop a github profile that’s a good reflection of my work. I think having a long history of github work looks really good!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lesson 6: Adjust development workflow to include github.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In conclusion, I think it boils down to having a mindset that assumes I’m about to be laid off. Again, not that I want to be paranoid about it, but I think it’s just good disaster preparedness and mindfulness. I’ll be implementing these takeaways as I seek my next opportunity.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lesson 1: Take savings goals seriously—the more, the better. Have six months of living expenses.&lt;/li&gt;
+&lt;li&gt;Lesson 2: Be genuine and mindful about relationships at work.&lt;/li&gt;
+&lt;li&gt;Lesson 3: Maintain professional relationships outside of work by being intentional and genuine.&lt;/li&gt;
+&lt;li&gt;Lesson 4: Keep my resume current regardless of my current employment status.&lt;/li&gt;
+&lt;li&gt;Lesson 5: Build and nurture my professional network with LinkedIn including recruiters.&lt;/li&gt;
+&lt;li&gt;Lesson 6: Adjust development workflow to include github.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>I&#39;m learning web development</title>
+    <link href="https://obsolete29.com/posts/learning-web-dev/"/>
+    <updated>2020-12-15T09:31:31-06:00</updated>
+    <id>https://obsolete29.com/posts/learning-web-dev/</id>
+    <content type="html">&lt;p&gt;I recently learned that my job is being outsourced. The favorite part of my current job is when I get to write PowerShell to solve problems so with that in mind, I’m going see this opportunity to teach myself web development with the intent of becoming a web developer.&lt;/p&gt;
+&lt;p&gt;I already understand lots of development concepts because of my experience with PowerShell. I use and understand VS Code, git, patterns and practices etc. I have lots to learn when it comes to working with a team of other developers, who are all working on the same things though; I look forward to the opportunity.&lt;/p&gt;
+&lt;h2&gt;My Plan&lt;/h2&gt;
+&lt;p&gt;Every article I’ve read as part of my research says to learn HTML/CSS, vanilla JavaScript then pick a framework. I’m undecided on the framework just yet but if my Twitter TL is any indication, React is super popular with Angular, TypeScript and Vue also getting lots of mentions.&lt;/p&gt;
+&lt;p&gt;I’m currently working my way through the &lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;freeCodeCamp.org&lt;/a&gt; Responsive Web Design Certification. I’ll also be working through the &lt;a href=&quot;https://www.codecademy.com/learn/paths/web-development&quot;&gt;Codecademy Web Development&lt;/a&gt; paid course.&lt;/p&gt;
+&lt;p&gt;I learn by doing so getting stuff to show up on the page is super rewarding. I usually learn best when I just hack around and google to figure things out. Then I like to go back and read about the things I’m just copying and pasting and reading closer on the topics I don’t fully understand by experimenting. Because of that, I expect this site to go through many iterations as I’m learning new things.&lt;/p&gt;
+&lt;p&gt;I’m currently on the HTML/CSS phase as I really want to make sure I’m really and truly understanding the concepts at this phase. Semantic HTML, Accessible HTML and CSS Flexbox, site design and color theory as it relates to site design, Figma. I want to be able to design and build a site and make it look nice without having to just steal other people’s designs.&lt;/p&gt;
+&lt;p&gt;Wish me luck. 😎&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Hello world!</title>
+    <link href="https://obsolete29.com/posts/hello-world/"/>
+    <updated>2020-12-14T18:58:46-06:00</updated>
+    <id>https://obsolete29.com/posts/hello-world/</id>
+    <content type="html">&lt;p&gt;Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!&lt;/p&gt;
+&lt;div&gt;
+  &lt;picture&gt;&lt;source type=&quot;image/webp&quot; media=&quot;(max-width: 629px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a104185a-350.webp&quot;&gt;
+                    &lt;source type=&quot;image/webp&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a104185a-808.webp&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(max-width: 529px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a104185a-350.jpeg&quot;&gt;
+                    &lt;source type=&quot;image/jpeg&quot; media=&quot;(min-width: 630px)&quot; srcset=&quot;https://obsolete29.com/assets/img/blog/a104185a-808.jpeg&quot;&gt;&lt;img loading=&quot;lazy&quot; alt=&quot;this is the alt text&quot; width=&quot;808&quot; height=&quot;454&quot; src=&quot;https://obsolete29.com/assets/img/blog/a104185a-350.jpeg&quot;&gt;&lt;/picture&gt;
+&lt;/div&gt;</content>
+  </entry>
+</feed>

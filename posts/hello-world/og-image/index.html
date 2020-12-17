@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
+    <title>Dynamic social sharing image for "Hello world!"</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        h1,
+        p,
+        figure {
+            margin: 0;
+        }
+
+        .page-stripe {
+            position: absolute;
+            top: 0;
+            width: 600px;
+            height: 8px;
+            background-image: linear-gradient(to right,#f1f5f7,#d80b77);
+        }
+
+        .container {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            width: 600px;
+            height: 315px;
+            background-color: #f1f5f7;
+        }
+
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            padding-left: 5px;
+        }
+
+        .og-image {
+            margin: 0 auto;
+        }
+        p {
+            margin-top: 2rem;
+            font-weight: 500;
+            font-size: 1.2em;
+            letter-spacing: .125em;
+            text-transform: uppercase;
+        }
+
+        .highlight {
+            color: #d80b77;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+</head>
+<body>
+    <div class="page-stripe"></div>
+    <div class="container">
+        <img class="profile-image" src="/assets/img/profile-photo.jpg" alt="">
+        <figure class="og-image">
+            <h1>Hello world!</h1>
+            <p>A post on obsolete<span class="highlight">29</span>.com</p>
+        </figure>
+    </div>
+
+</body>
+</html>

@@ -5,77 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-    <!-- seo -->
-    <meta name="Description" content="Welcome to my personal space on the world wide web. Day job: Power Platform, PowerShell, SharePoint. Real job: cat dad.">
     <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Michael Harley / obsolete29.com">
+    <!-- SEO -->
+    <title>#webdev</title>
+    
+        
+    
+    <link rel="canonical" href="https://obsolete29.com/posts/webdev/">
+    <meta name="description" content="">
     <!-- Open graph -->
     <meta property="og:title" content="#webdev">
-    <meta property="og:description" content="Welcome to my personal space on the world wide web. Day job: Power Platform, PowerShell, SharePoint. Real job: cat dad.">
+    <meta property="og:description" content="#webdev">
     <meta property="og:type" content="article">
-    <meta name="author" content=Michael Harley>
-    <meta property="og:image" content="https://obsolete29.com/assets/img/social-cover.jpg"/>
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="675" />
+    <meta property="og:image" content="https://obsolete29.com/assets/img/site-social-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="675">
     <!-- Twitter -->
     <meta name="twitter:title" content="#webdev">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@obsolete29">
-    <meta name="twitter:description" content="Welcome to my personal space on the world wide web. Day job: Power Platform, PowerShell, SharePoint. Real job: cat dad.">
-    <meta name="twitter:image" content="https://obsolete29.com/assets/img/social-cover.jpg">
-    <meta name="twitter:creator" content="@obsolete29">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="alternate" type="application/rss+xml" title="obsolete29.com" href="/feed.xml">
-    <title>#webdev</title>
+    <meta name="twitter:description" content="#webdev">
+    <meta name="twitter:image" content="https://obsolete29.com/assets/img/site-social-cover.jpg">
+    <meta name="twitter:creator" content="@obsolet29">
 </head>
 <body>
-     <header>
-            <div class="page-wave-container">
-                <svg class="page-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#f1f5f7" fill-opacity="1" d="M0,192L60,197.3C120,203,240,213,360,186.7C480,160,600,96,720,101.3C840,107,960,181,1080,229.3C1200,277,1320,299,1380,309.3L1440,320L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
-                </svg>
-            </div>
+    <div class="page-stripe"></div>
+    <header>
         <div class="container">
-
-            <nav class="top-nav">
-                <a class="top-nav-home" href="/"><span class="logo-mark logo">></span><span class="logo-text logo">obsolete29.com</span> </a>
-                <div class="top-nav-links">
-                    <a href="/posts" class="top-nav-link">blog</a>
-                    <a href="/about" class="top-nav-link">about</a>
-                </div>
+            <nav class="site-top-nav">
+                <a class="site-top-nav__link site-top-nav__link--home"href="/"><span class="site-top-nav__home-character">></span>obsolete29.com</a>
+                <section class="site-top-nav__links">
+                    <a href="/posts/" class="site-top-nav__link">posts</a>
+                    <a href="/contact/" class="site-top-nav__link">contact</a>
+                    <a href="/about/" class="site-top-nav__link">about</a>
+                </section>
             </nav>
         </div>
     </header>
+
+
+
+
     <main>
         <div class="container">
             <section class="posts">
   
-  <h1>#webdev</h1>
+  <h1 class="posts__header">#webdev</h1>
   
-  <article class="post-summary">
-    <time class="post-summary-date">2020-09-02</time>
-    <a class="post-summary-title" href="/posts/learning-web-dev/">I&#39;m learning web development</a>
+  <article class="posts__post-summary">
+      <time class="posts__post-summary-date">2020-09-02</time>
+      <a class="posts__post-summary-title" href=/posts/learning-web-dev/>I&#39;m learning web development</a>
   </article>
   
 </section>
         </div>
     </main>
-    <footer>
+
+
+
+
+    <footer class="site-footer" >
         <div class="container">
-            <section class="social-bar">
+            <nav class="site-footer__social-bar">
                 <a href="https://twitter.com/obsolete29" rel="me">
-                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512">
                     <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
                     <path fill="#233742" d="M437 152a72 72 0 01-40 12a72 72 0 0032-40a72 72 0 01-45 17a72 72 0 00-122 65a200 200 0 01-145-74a72 72 0 0022 94a72 72 0 01-32-7a72 72 0 0056 69a72 72 0 01-32 1a72 72 0 0067 50a200 200 0 01-105 29a200 200 0 00309-179a200 200 0 0035-37"/>
                     </svg>
                 </a>
                 <a href="mailto:mike@obsolete29.com" rel="me">
-                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" aria-label="ProtonMail" role="img" viewBox="0 0 512 512">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="ProtonMail" role="img" viewBox="0 0 512 512">
                         <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
                         <g fill="#233742">
                             <path d="M259 77s-108-6-131 114v79s0 12 23 29c28 17 91 68 108 68s74-51 102-69c23-16 23-28 23-28v-79C361 71 259 77 259 77zm68 159H185v-45c11-57 74-57 74-57s57 0 68 57v45z"/>
@@ -84,42 +89,33 @@
                     </svg>
                 </a>
                 <a href="https://github.com/mharleydev" rel="me">
-                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512">
                         <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
                         <path fill="#233742" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/>
                     </svg>
                 </a>
                 <a href="https://www.linkedin.com/in/mharleydev/" rel="me">
-                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" aria-label="LinkedIn" role="img" viewBox="0 0 512 512" fill="#233742">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="LinkedIn" role="img" viewBox="0 0 512 512" fill="#233742">
                         <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
                         <circle cx="142" cy="138" r="37"/>
                         <path stroke="#233742" stroke-width="66" d="M244 194v198M142 194v198"/>
                         <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/>
                     </svg>
                 </a>
-                <a href="https://open.spotify.com/user/dh7g2ogldbba1kql35fvy4dqb?si=TWeJ_64nQV-Aisom3fcRfw">
-                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" aria-label="Spotify" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#b4cddd"/>
-                        <circle cx="256" cy="256" fill="#233742" r="192"/>
-                        <g fill="none" stroke="#b4cddd" stroke-linecap="round">
-                            <path d="m141 195c75-20 164-15 238 24" stroke-width="36"/>
-                            <path d="m152 257c61-17 144-13 203 24" stroke-width="31"/>
-                            <path d="m156 315c54-12 116-17 178 20" stroke-width="24"/>
-                        </g>
-                    </svg>
-                </a>
-                <a href="/feed.xml">
-                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" aria-label="RSS" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <a href="/feed/feed.xml">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="RSS" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <rect fill="#b4cddd" height="512" rx="15%" width="512"/>
                         <circle cx="145" cy="367" fill="#233742" r="35"/>
                         <path d="m109 241c89 0 162 73 162 162m114 0c0-152-124-276-276-276" fill="none" stroke="#233742" stroke-width="60"/>
                     </svg>
                 </a>
-            </section>
-            <div class="footer-disclaimer">
-                © 2020 <a class="h-card" href="https://obsolete29.com">Michael Harley</a> • Powered by <a href="https://www.11ty.dev/">Eleventy</a>
-            </div>
+            </nav>
+            <p class="site-footer__disclaimer">
+                © 2020 Michael Harley • Powered by <a class="site-footer__link" href="https://www.11ty.dev/">Eleventy</a>
+            </p>
         </div>
     </footer>
+<script data-goatcounter="https://obsolete29.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script>
 </body>
-<script data-goatcounter="https://obsolete29.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </html>

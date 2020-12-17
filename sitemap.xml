@@ -2,86 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://obsolete29.com/posts/learning-web-dev/</loc>
-            <lastmod>2020-09-02T00:00:00.000Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/lessons-learned-from-bridgestone/</loc>
-            <lastmod>2020-09-07T00:00:00.000Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/</loc>
-            <lastmod>2020-12-03T18:57:27.452Z</lastmod>
+            <loc>/</loc>
+            <lastmod>2020-12-15T00:42:15.421Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/about/</loc>
-            <lastmod>2020-12-04T15:27:36.989Z</lastmod>
-            <changefreq>monthly</changefreq>
+            <loc>/posts/hello-world/</loc>
+            <lastmod>2020-12-15T00:58:46.370Z</lastmod>
+            <changefreq>Yearly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/contact/</loc>
-            <lastmod>2020-12-04T15:32:33.367Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/webdev/</loc>
-            <lastmod>2020-12-04T17:20:43.950Z</lastmod>
+            <loc>/posts/</loc>
+            <lastmod>2020-12-15T03:29:27.623Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/career/</loc>
-            <lastmod>2020-12-04T17:20:43.950Z</lastmod>
+            <loc>/posts/hello/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/cats/</loc>
-            <lastmod>2020-12-04T17:20:43.950Z</lastmod>
+            <loc>/posts/cats/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/site.webmanifest</loc>
-            <lastmod>2020-12-05T18:21:48.493Z</lastmod>
+            <loc>/posts/webdev/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/career/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/learning-web-dev/</loc>
+            <lastmod>2020-12-15T15:31:31.188Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/robots.txt</loc>
-            <lastmod>2020-12-05T19:53:18.330Z</lastmod>
+            <loc>/posts/lessons-learned-from-bridgestone/</loc>
+            <lastmod>2020-12-15T15:36:07.253Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/please-meet-my-cats/</loc>
-            <lastmod>2020-12-06T00:00:00.000Z</lastmod>
+            <loc>/posts/please-meet-my-cats/</loc>
+            <lastmod>2020-12-15T15:59:58.229Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/CNAME</loc>
-            <lastmod>2020-12-07T18:02:36.531Z</lastmod>
+            <loc>/contact/</loc>
+            <lastmod>2020-12-15T16:20:16.315Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/README.md</loc>
-            <lastmod>2020-12-07T18:05:58.177Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/</loc>
-            <lastmod>2020-12-08T22:16:56.509Z</lastmod>
+            <loc>/about/</loc>
+            <lastmod>2020-12-15T16:20:22.213Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
