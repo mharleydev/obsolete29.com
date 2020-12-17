@@ -129,6 +129,16 @@ h1 {
 .site-top-nav__link:not(:last-child) {
     margin-right: 1em;
 }
+
+@media (max-width: 501px) {
+    .site-top-nav__links {
+        margin-top: 1em;
+    }
+
+    .site-top-nav__link:not(:last-child) {
+        margin-right: 2em;
+    }
+}
   
 .site-top-nav__link {
 letter-spacing: .1em;
