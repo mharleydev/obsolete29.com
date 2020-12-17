@@ -123,6 +123,7 @@ h1 {
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    align-items: flex-end;
 }
 
 .site-top-nav__link:not(:last-child) {
@@ -138,6 +139,8 @@ color: var(--title-color);
 .site-top-nav__link--home {
 font-weight: bold;
 font-family: var(--font-family-monospace);
+font-size: 1.4em;
+line-height: 1;
 }
 
 .site-top-nav__home-character {
@@ -150,7 +153,6 @@ color: var(--color-accent);
 .profile {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
     padding-top: 1rem;
 }
 
@@ -159,13 +161,15 @@ color: var(--color-accent);
     align-self: flex-start;
     margin: 0 auto 1em auto;
     height: 320px;
-    weight: 320px;
+    width: 320px;
 }
 
 .profile__info {
     flex-shrink: 1;
     flex-grow: 1;
     flex-basis: 350px;
+    margin-left: 2rem;
+    align-self: center;
 }
 
 .profile__title {
@@ -178,7 +182,13 @@ color: var(--color-accent);
     .profile__title {
         margin-top: 0.67em;
     }
+
+    .profile__info {
+        margin-left: 0;
+    }
 }
+
+
 
 .profile__sub-title {
     color: var(--color-accent);
@@ -197,12 +207,14 @@ color: var(--color-accent);
 .posts__post-summary {
     display: flex;
     flex-direction: column;
+
     border-bottom: 1px dotted;
     padding-top: .75em;
 }
 
 .posts__post-summary-date {
     color: var(--color-subdued-accent);
+    font-weight: var(--weight-light);
     font-size: var(--font-size-small);
 }
 
@@ -216,10 +228,12 @@ color: var(--color-accent);
     .posts__post-summary {
         flex-direction: row;
         justify-content: space-between;
+        
     }
 
     .posts__post-summary-date {
         order: 2;
+        font-size: var(--font-size-normal);
     }
 }
 
