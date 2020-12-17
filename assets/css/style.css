@@ -158,6 +158,8 @@ color: var(--color-accent);
     border-radius: 50%;
     align-self: flex-start;
     margin: 0 auto 1em auto;
+    height: 320px;
+    weight: 320px;
 }
 
 .profile__info {
