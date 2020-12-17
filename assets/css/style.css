@@ -227,7 +227,20 @@ color: var(--color-accent);
 
 .post__body {
     border-bottom: 1px solid #000;
-  }
+}
+
+.post__body a {
+    color: var(--color-accent);
+    text-decoration: none;
+    box-shadow: var(--shadow-link);
+    transition: box-shadow var(--timing-hover);
+}
+
+.post__body a:hover,
+.post__body a:focus {
+    box-shadow: var(--shadow-link-hover);
+}
+
   
 .post__figure-caption {
     font-style: italic;
