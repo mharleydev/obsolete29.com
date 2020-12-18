@@ -4,12 +4,25 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com"/>
-  <updated>2020-12-15T09:59:58-06:00</updated>
+  <updated>2020-12-18T09:14:17-06:00</updated>
   <id>https://obsolete29.com</id>
   <author>
     <name>Michael Harley</name>
     <email>mike@obsolete29.com</email>
   </author>
+  
+  <entry>
+    <title>Welcome to obsolete29.com v1.0!</title>
+    <link href="https://obsolete29.com/posts/welcome-to-obsolete29-v1/"/>
+    <updated>2020-12-18T09:14:17-06:00</updated>
+    <id>https://obsolete29.com/posts/welcome-to-obsolete29-v1/</id>
+    <content type="html">&lt;p&gt;Welp, I did it. I&#39;ve finally finished up the design and development of my site; welcome to version 1.0.0! I built at least 4 different protoypes in this space over the past 6 weeks or so but I think I like this one a lot. If you&#39;re wondering, it&#39;s a static site, built with &lt;a href=&quot;https://11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;, hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, and &lt;a href=&quot;https://medium.com/@mattholt/its-2019-and-i-still-make-websites-with-my-bare-hands-73d4eec6b7&quot;&gt;coded with my bare hands&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;https://twitter.com/robinsloan/status/1338160419769208832&lt;/p&gt;
+&lt;p&gt;Right now it&#39;s pretty basic and simple. I feel like the &lt;a href=&quot;https://colly.com/articles/this-used-to-be-our-playground&quot;&gt;idea of having a personal site&lt;/a&gt; is having a resurgance among the people I follow on Twitter. I really love the idea of treating your personal site as a personal, digital garden. It&#39;s something to tend to and grow over time. It&#39;s an archive and repository of ideas and thoughts. It&#39;s a &lt;a href=&quot;https://indieweb.org/&quot;&gt;place to opt out of the corporate web&lt;/a&gt;. It&#39;s a place for me to own my content. The challenge is how do you get people to consume your content from your personal site? There&#39;s no timeline. I&#39;m going to push RSS hard but I think relatively few use RSS in any form. I think I&#39;ll see about a weekly email digest of activity. Ultimately, I&#39;m writing for myself. I&#39;m not really trying to &amp;quot;grow my blog&amp;quot;. I&#39;m not doing performant writing here. I&#39;m just writing and tending and growing this thing for my own sake.&lt;/p&gt;
+&lt;p&gt;I want to add a few more features to the site, finish the about and contact pages, and migrate my content from my other blogs (michaelharley.me &amp;amp; mharley.dev). I&#39;d also like to migrate and re-envision my online resume.&lt;/p&gt;
+&lt;p&gt;As I type this, I have a hopper full of things I want to write about. How I built my site with Eleventy, a security guide and my 2020 after action report for starters.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Please meet my cats</title>
