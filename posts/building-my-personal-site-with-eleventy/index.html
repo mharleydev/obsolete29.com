@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/roboto-v20-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/roboto-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Michael Harley / obsolete29.com">
+    <!-- SEO -->
+    <title>Building my personal site with Eleventy</title>
+    
+        
+    
+    <link rel="canonical" href="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/">
+    <meta name="description" content="This is part one of a multipart series about how I setup my personal web site using Eleventy">
+    <!-- Open graph -->
+    <meta property="og:title" content="Building my personal site with Eleventy">
+    <meta property="og:description" content="This is part one of a multipart series about how I setup my personal web site using Eleventy">
+      
+        
+    
+    <meta property="og:type" content="article">
+    <meta name="image" property="og:image" content="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/og-image/og-social-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="article:author" name="author" content="Michael Harley">
+    <meta property="article:published_time" content="Sat Dec 19 2020 18:00:00 GMT-0600 (Central Standard Time)">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Building my personal site with Eleventy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@obsolete29">
+    <meta name="twitter:description" content="This is part one of a multipart series about how I setup my personal web site using Eleventy">
+    <meta name="twitter:image" content="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/og-image/twitter-social-cover.jpg">
+    <meta name="twitter:creator" content="@obsolet29">
+</head>
+<body>
+    <div class="page-stripe"></div>
+    <header>
+        <div class="container">
+            <nav class="site-top-nav">
+                <a class="site-top-nav__link site-top-nav__link--home"href="/"><span class="site-top-nav__home-character">></span>obsolete29.com</a>
+                <section class="site-top-nav__links">
+                    <a href="/posts/" class="site-top-nav__link">posts</a>
+                    <a href="/contact/" class="site-top-nav__link">contact</a>
+                    <a href="/about/" class="site-top-nav__link">about</a>
+                </section>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <div class="container">
+             
+ <article class="post">
+<h1 class="post__header">Building my personal site with Eleventy</h1>
+<section class="post__body">
+   <p>This is part one of a multipart series about how I setup my personal web site using <a href="https://11ty.dev">Eleventy</a>.</p>
+<p><em>Disclaimer: I'm new to web development. If you have any constructive criticism for me, please reach out! I'm very open to advice!</em></p>
+<p>Before I started to write any code, I took note of what I wanted for my new site.</p>
+<h2>Requirements</h2>
+<ul>
+<li><strong>Blogging</strong> - First and foremost, I want to write posts and publish content, so the site needs to be configured for blogging. I want to be able to write my posts in markdown and not have to do a lot of custom coding just to write a new post.</li>
+<li><strong>Personal</strong> - I wanted to host my site on a name space that I own. I've been using obsolete29 as an online monikor for ~18 years now ,so I wanted to use that. I use <a href="https://www.hover.com/">Hover</a> as my registrar.</li>
+<li><strong>Static</strong> - Static sites are all the hotness right now. While there are lots of static site generators, I've landed on <a href="https://11ty.dev">Eleventy</a>. It just seemed like a lot of people in my timeline were talking about it. After reading up a bit on it, I wanted to give it a try. This is my very first static site!</li>
+<li><strong>Responsive</strong> - I want the site to work on mobile, desktop, and every size screen in between.</li>
+<li><strong>Accessible</strong> - I want to be mindful of accessibility and make sure I'm implementing all the best practices.</li>
+<li><strong>Discoverable (SEO)</strong> - I want the site to be discoverable, so I want to be sure I'm implementing SEO best practices.</li>
+</ul>
+<h2>Layout / Design</h2>
+<p>I've spent a lot of time trying to decide on a layout for my site. I've really agonized over it, but I think I've landed on one that I like. Ultimately, I browsed a lot of personal sites of developers I follow on Twitter looking for inspiration. In retrospect, I think I probably did too much borrowing, but I let myself off the hook because I'm new at design, and I'm trying to develop my own sense of design style.</p>
+<p>A good resource that I've seen <a href="https://hybridcattt.com/blog/website-essentials/#inspiration">recommended</a> is <a href="https://humans.fyi/">humans.fyi</a>.</p>
+<h2>Initial mockup</h2>
+<p>Since I'm using this as an exercise to teach myself web development, I used Visual Studio Code to build out the homepage, the post page, and the style sheets as a static mockup. I'll translate this into <a href="https://www.11ty.dev/docs/languages/nunjucks/">Nunjuck layout files</a> in the next step.</p>
+<p>As I created the markup for my site, I tried my best to implement my best understanding of semantic HTML tags. That understanding is based solely on my reading of the MDN specifications and some articles that I've run across in my web prowling. My main take away is to try to avoid using generic div tags if there's a semantic tag available.</p>
+<p>I'm studying the guidance from the <a href="https://codeguide.co/">Code Guide</a> and <a href="https://cssguidelin.es/">CSS Guidelines</a>, so I attempted to implement as much of this information as possible. I also used this as an opportunity to use <a href="http://getbem.com/introduction/">BEM</a> as a class naming methodology.</p>
+<p>I am using <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> as a starting basis for my styling.</p>
+<h3>Resources</h3>
+<ul>
+<li><a href="https://codeguide.co/">Code Guide</a></li>
+<li><a href="https://cssguidelin.es/">CSS Guidelines</a></li>
+<li><a href="https://css-tricks.com/posters-for-css-flexbox-and-css-grid/">Flexbox poster from CSS-Tricks</a></li>
+<li><a href="https://css-tricks.com/using-svg/#using-inline-svg">Using inline SVG</a></li>
+<li><a href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</a></li>
+<li><a href="https://necolas.github.io/normalize.css/">Normalize.css</a></li>
+</ul>
+<h2>Eleventy</h2>
+<p>There are many great guides for getting started with Eleventy, but I got started with the documentation from the <a href="https://www.11ty.dev/docs/getting-started/">Eleventy website itself</a> and <a href="https://11ty.rocks/posts/create-your-first-basic-11ty-website/">Create Your First Basic 11ty Website</a> from <a href="/Applications/Joplin.app/Contents/Resources/app.asar/11ty.rocks" title="11ty.rocks">11ty.rocks</a>. Another walk thru that I found valuable was <a href="https://jec.fyi/blog/building-my-static-site-with-11ty">Building Personal Static Site with Eleventy</a> by <a href="https://twitter.com/jecelynyeen">Jecelyn</a>.</p>
+<h3>My 11ty configuration</h3>
+<p>I'm starting out with a basic directory structure.</p>
+<pre class="language-text"><code class="language-text">- src # source files<br>.eleventy.js # eleventy config file<br>.gitignore<br>package.json</code></pre>
+<p>My src directory is will be laid out thusly:</p>
+<pre class="language-text"><code class="language-text">- src<br>    - _data # store global data files here<br>    - _includes # layout templates here<br>    - about<br>    - assets<br>      - css<br>      - fonts<br>      - img<br>    - contact<br>    - posts</code></pre>
+<p>I did want to call out one thing with how I'm planning my directory structure. Many people split out the source images from the markdown files for their posts. They just put the markdown for a new post directly into the root of posts like this:</p>
+<pre class="language-text"><code class="language-text">- src<br>  - posts<br>    - hello-world.md</code></pre>
+<p>I want source images to live in the same directory as the markdown files like this:</p>
+<pre class="language-text"><code class="language-text">- src<br>  - posts<br>    - hello-world<br>      - index.md<br>      - image01.jpg<br>      - image02.jpg</code></pre>
+<p>I want my content to be as platform agnostic as possible. Later, should I want to use Gatsby or some other platform, I want to be able to just grab my posts directory. Then, I know that I have both the markdown text and the images that go with a post.</p>
+<h3>Build the project</h3>
+<p>I'm just following the <a href="https://11ty.rocks/posts/create-your-first-basic-11ty-website/">11ty.rocks</a> guide if you'd like to reference the original. Let's get our new project setup under version control. I'm using GitHub, so let's create a new repository.</p>
+<ol>
+<li>Create new repo: obsolete29.com-eleventy</li>
+<li>Clone repo locally: <code>git clone https://github.com/mharleydev/obsolete29.com-eleventy.git</code>.</li>
+<li>From our new local repo: <code>npm init -y</code></li>
+<li>Install eleventy: <code>npm install @11ty/eleventy</code></li>
+<li>Let's setup a couple node scripts by updating our package.json file thusly:</li>
+</ol>
+<pre class="language-json"><code class="language-json">  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br>    <span class="token property">"start"</span><span class="token operator">:</span> <span class="token string">"eleventy --serve"</span><span class="token punctuation">,</span><br>    <span class="token property">"build"</span><span class="token operator">:</span> <span class="token string">"eleventy"</span><br>  <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<ol start="6">
+<li>Create .eleventy.js in the root of our project.</li>
+</ol>
+<pre class="language-javascript"><code class="language-javascript"><span class="token comment">/* .eleventy.js */</span><br><br>module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <br>  <span class="token comment">// copy css and img files to dist</span><br>  eleventyConfig<span class="token punctuation">.</span><span class="token function">addPassthroughCopy</span><span class="token punctuation">(</span><span class="token string">"src/assets"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>  <span class="token comment">// set input and output folder</span><br>  <span class="token keyword">return</span> <span class="token punctuation">{</span><br>    dir<span class="token operator">:</span> <span class="token punctuation">{</span> input<span class="token operator">:</span> <span class="token string">'src'</span><span class="token punctuation">,</span> output<span class="token operator">:</span> <span class="token string">'dist'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span><br>  <span class="token punctuation">}</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
+<ol start="7">
+<li>Create .gitignore and add <code>node_modules</code> to the file.</li>
+<li>Create /src/index.md to do our first build.</li>
+</ol>
+<pre class="language-md"><code class="language-md"><span class="token title important"><span class="token punctuation">#</span> Hello World</span></code></pre>
+<ol start="9">
+<li>Let's build! Execute <code>npm run build</code>. We should get an index.html file in our dist folder! Woohoo! Note: Most guides say to run <code>npm build</code> to build your site, but I couldn't get that to work. The Node documentation says to use the run command to run node scripts like I did it. I don't know what that's about!</li>
+</ol>
+<h3>Layouts</h3>
+<p>I'm using <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> as my templating language. Nearly all examples and guides I've found on the web uses it. Being able to find many examples of other people using is the biggest benefit for me.</p>
+<p>This part will not be a full walk-thru on how I setup my templates. The <a href="https://www.11ty.dev/docs/templates/">Eleventy documentation</a> on the topic is a great place to start. I'd also recommend taking a look at <a href="https://11ty.rocks">11ty.rocks</a> for more resources on learning this part. Here is a quick overview of how it works though.</p>
+<ol>
+<li>Create <code>/src/_includes/base.njk</code>.</li>
+<li>I copied the code I built during the mockup phase into base.njk.</li>
+<li>I removed the content from index.html and replaced that with {{ content | safe}}. Below is a presentation of what that looks like.</li>
+</ol>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br>    {{ content | safe}}<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<ol>
+<li>Rename <code>index.md</code> that we created in step 8 above to index.njk.</li>
+<li>We need to add a <a href="https://www.11ty.dev/docs/data-frontmatter/">front matter section</a> to index.njk.</li>
+</ol>
+<pre class="language-text"><code class="language-text">---<br>layout: base.njk<br>---</code></pre>
+<ol start="7">
+<li>Now copy the code we removed from step 3 into index.njk, below the front matter section. It should look like this.</li>
+</ol>
+<pre class="language-html"><code class="language-html">---<br>layout: base.njk<br>---<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>profile<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>profile__info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>profile__title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Michael Harley<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>profile__sub-title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>chief goblin herder<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>profile__body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>            Welcome to my personal space on the world wide web.<br>            I enjoy hiking, biking, foosball, and reading.<br>            I work with Power Platform, Powershell, Sharepoint, and I'm learning web development.<br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__header<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Recent Activity<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-date<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2020-12-20<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-title<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>/posts/building-my-personal-site-with-eleventy/</span><span class="token punctuation">></span></span>Building my personal site with Eleventy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-date<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2020-12-18<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-title<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>/posts/welcome-to-obsolete29-v1/</span><span class="token punctuation">></span></span>Welcome to obsolete29.com v1.0!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-date<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2020-12-06<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-title<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>/posts/please-meet-my-cats/</span><span class="token punctuation">></span></span>Please meet my cats<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-date<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2020-09-07<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-title<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>/posts/lessons-learned-from-bridgestone/</span><span class="token punctuation">></span></span>Lessons learned from my time at Bridgestone<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-date<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2020-09-02<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-title<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>/posts/learning-web-dev/</span><span class="token punctuation">></span></span>I<span class="token entity" title="&#39;">&amp;#39;</span>m learning web development<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>time</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-date<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>2012-01-28<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>time</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>posts__post-summary-title<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>/posts/hello-world/</span><span class="token punctuation">></span></span>Hello world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>article</span><span class="token punctuation">></span></span><br>    <br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span></code></pre>
+<ol start="8">
+<li>Now when we run <code>npm run build</code>, eleventy looks at your src directory, sees index.njk and tries to process it.</li>
+</ol>
+<p>We'll repeat step 7 for each basic page we want, including the about and contact pages. Reference base.njk in the front matter, and put your content below. Eleventy processes each template file you have in your src directory.</p>
+<p>Ok, that's it for now! Thanks for reading. Next week, I'll document how I setup my site for responsive and optimized images.</p>
+
+</section>
+<footer class="post__footer">
+    <p class="post__metadata">
+            <svg class="post__metadata-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                <line x1="7" y1="7" x2="7" y2="7"></line>
+            </svg>
+            <span class="post__metadata-detail">
+                
+                
+                
+                
+                    
+                        <a class="post-tag" href="/posts/obsolete29/">#obsolete29</a>
+                    
+                
+                
+                    
+                        <a class="post-tag" href="/posts/eleventy/">#eleventy</a>
+                    
+                
+                
+                    
+                        <a class="post-tag" href="/posts/webdev/">#webdev</a>
+                    
+                
+            </span>
+    </p>
+    <p class="post__metadata">
+            <svg class="post__metadata-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span class="post__metadata-detail">2020-12-20 </span>
+    </p>
+    <p class="post__metadata">
+            <svg class="post__metadata-icon" overflow="hidden" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <circle cx="48" cy="30" r="16"></circle>
+                    <path d=" M 80 82 L 80 66 C 80 63.6 78.8 61.2 76.8 59.6 C 72.4 56 66.8 53.6 61.2 52 C 57.2 50.8 52.8 50 48 50 C 43.6 50 39.2 50.8 34.8 52 C 29.2 53.6 23.6 56.4 19.2 59.6 C 17.2 61.2 16 63.6 16 66 L 16 82 L 80 82 Z"></path>
+                </g>
+            </svg>
+            <span class="post__metadata-detail">Michael Harley</span>
+    </p>
+</footer>
+<section class="post__discussion">
+    <a class="post__discussion-link" href="https://twitter.com/search?q=https://obsolete29.com/posts/building-my-personal-site-with-eleventy/">
+        Discuss on Twitter
+        <svg class="post__discussion-icon" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+        </svg>
+    </a>
+</section>
+</article>
+        </div>
+    </main>
+
+
+
+
+    <footer class="site-footer" >
+        <div class="container">
+            <nav class="site-footer__social-bar">
+                <a href="https://twitter.com/obsolete29" rel="me">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512">
+                    <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
+                    <path fill="#233742" d="M437 152a72 72 0 01-40 12a72 72 0 0032-40a72 72 0 01-45 17a72 72 0 00-122 65a200 200 0 01-145-74a72 72 0 0022 94a72 72 0 01-32-7a72 72 0 0056 69a72 72 0 01-32 1a72 72 0 0067 50a200 200 0 01-105 29a200 200 0 00309-179a200 200 0 0035-37"/>
+                    </svg>
+                </a>
+                <a href="mailto:mike@obsolete29.com" rel="me">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="ProtonMail" role="img" viewBox="0 0 512 512">
+                        <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
+                        <g fill="#233742">
+                            <path d="M259 77s-108-6-131 114v79s0 12 23 29c28 17 91 68 108 68s74-51 102-69c23-16 23-28 23-28v-79C361 71 259 77 259 77zm68 159H185v-45c11-57 74-57 74-57s57 0 68 57v45z"/>
+                            <path d="M259 384l-34-12-97-68v120s0 11 17 11h222c11 0 17-11 17-11V304l-97 69-28 11z"/>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://github.com/mharleydev" rel="me">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512">
+                        <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
+                        <path fill="#233742" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/mharleydev/" rel="me">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="LinkedIn" role="img" viewBox="0 0 512 512" fill="#233742">
+                        <rect width="512" height="512" rx="15%" fill="#b4cddd"/>
+                        <circle cx="142" cy="138" r="37"/>
+                        <path stroke="#233742" stroke-width="66" d="M244 194v198M142 194v198"/>
+                        <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/>
+                    </svg>
+                </a>
+                <a href="/feed/feed.xml">
+                    <svg class="site-footer__social-bar-icon" xmlns="http://www.w3.org/2000/svg" aria-label="RSS" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <rect fill="#b4cddd" height="512" rx="15%" width="512"/>
+                        <circle cx="145" cy="367" fill="#233742" r="35"/>
+                        <path d="m109 241c89 0 162 73 162 162m114 0c0-152-124-276-276-276" fill="none" stroke="#233742" stroke-width="60"/>
+                    </svg>
+                </a>
+            </nav>
+            <p class="site-footer__disclaimer">
+                © 2020 Michael Harley • Powered by <a class="site-footer__link" href="https://www.11ty.dev/">Eleventy</a>
+            </p>
+        </div>
+    </footer>
+<script data-goatcounter="https://obsolete29.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
