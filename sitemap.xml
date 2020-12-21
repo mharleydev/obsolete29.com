@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/</loc>
-            <lastmod>2020-12-15T00:42:15.421Z</lastmod>
-            <changefreq>weekly</changefreq>
+            <loc>/posts/hello-world/</loc>
+            <lastmod>2012-01-28T00:00:00.000Z</lastmod>
+            <changefreq>Yearly</changefreq>
         </url>
     
         <url>
-            <loc>/posts/hello-world/</loc>
-            <lastmod>2020-12-15T00:58:46.370Z</lastmod>
-            <changefreq>Yearly</changefreq>
+            <loc>/posts/why-im-an-atheist/</loc>
+            <lastmod>2012-01-30T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/</loc>
+            <lastmod>2020-12-15T00:42:15.421Z</lastmod>
+            <changefreq>weekly</changefreq>
         </url>
     
         <url>
@@ -21,6 +27,18 @@
     
         <url>
             <loc>/posts/hello/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/religion/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/atheism/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -44,12 +62,6 @@
         </url>
     
         <url>
-            <loc>/posts/indieweb/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>/posts/career/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -57,6 +69,12 @@
     
         <url>
             <loc>/posts/cats/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/indieweb/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
