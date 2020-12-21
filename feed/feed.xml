@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2020-12-20T11:37:48-06:00</updated>
+  <updated>2020-12-21T08:11:35-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -63,5 +63,14 @@
     <updated>2020-12-20T11:37:48-06:00</updated>
     <id>https://obsolete29.com/posts/building-my-personal-site-with-eleventy/</id>
     <content type="html">This is part one of a multipart series about how I setup my personal web site using Eleventy</content>
+  </entry>
+  
+  <entry>
+    <title>Configuring responsive and optimized images with Eleventy</title>
+    <link href="https://obsolete29.com/posts/configuring-responsive-images-eleventy/"/>
+    <published>2020-12-20T18:00:00-06:00</published>
+    <updated>2020-12-21T08:11:35-06:00</updated>
+    <id>https://obsolete29.com/posts/configuring-responsive-images-eleventy/</id>
+    <content type="html">This is part two of a multipart series about how I setup my personal web site using Eleventy. Let&#39;s configure responsive images using the eleventy-img plugin.</content>
   </entry>
 </feed>
