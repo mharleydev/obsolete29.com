@@ -14,6 +14,7 @@
   <entry>
     <title>Hello world!</title>
     <link href="https://obsolete29.com/posts/hello-world/"/>
+    <published>2012-01-27T18:00:00-06:00</published>
     <updated>2020-12-14T18:58:46-06:00</updated>
     <id>https://obsolete29.com/posts/hello-world/</id>
     <content type="html">Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!</content>
@@ -22,6 +23,7 @@
   <entry>
     <title>I&#39;m learning web development</title>
     <link href="https://obsolete29.com/posts/learning-web-dev/"/>
+    <published>2020-09-01T19:00:00-05:00</published>
     <updated>2020-12-15T09:31:31-06:00</updated>
     <id>https://obsolete29.com/posts/learning-web-dev/</id>
     <content type="html">I&#39;m teaching myself web development and I&#39;ll be writing about my journey.</content>
@@ -30,6 +32,7 @@
   <entry>
     <title>Lessons learned from my time at Bridgestone</title>
     <link href="https://obsolete29.com/posts/lessons-learned-from-bridgestone/"/>
+    <published>2020-09-06T19:00:00-05:00</published>
     <updated>2020-12-15T09:36:07-06:00</updated>
     <id>https://obsolete29.com/posts/lessons-learned-from-bridgestone/</id>
     <content type="html">After nearly 5 years with Bridgestone, I’ll be leaving the company because of restructuring. Since the announcement, I’ve reflected about my lessons learned that I can take away with me and onto my next opportunity.</content>
@@ -38,6 +41,7 @@
   <entry>
     <title>Please meet my cats</title>
     <link href="https://obsolete29.com/posts/please-meet-my-cats/"/>
+    <published>2020-12-05T18:00:00-06:00</published>
     <updated>2020-12-15T09:59:58-06:00</updated>
     <id>https://obsolete29.com/posts/please-meet-my-cats/</id>
     <content type="html">If you follow me on Twitter, then you already know I have three cats. I&#39;d like to introduce you to them now. Thank you.</content>
@@ -46,6 +50,7 @@
   <entry>
     <title>Welcome to obsolete29.com v1.0!</title>
     <link href="https://obsolete29.com/posts/welcome-to-obsolete29-v1/"/>
+    <published>2020-12-17T18:00:00-06:00</published>
     <updated>2020-12-18T09:14:17-06:00</updated>
     <id>https://obsolete29.com/posts/welcome-to-obsolete29-v1/</id>
     <content type="html">I&#39;ve finally finished up the design and development of my site; welcome to version 1.0.0!</content>
@@ -54,6 +59,7 @@
   <entry>
     <title>Building my personal site with Eleventy</title>
     <link href="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/"/>
+    <published>2020-12-19T18:00:00-06:00</published>
     <updated>2020-12-20T11:37:48-06:00</updated>
     <id>https://obsolete29.com/posts/building-my-personal-site-with-eleventy/</id>
     <content type="html">This is part one of a multipart series about how I setup my personal web site using Eleventy</content>
