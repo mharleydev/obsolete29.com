@@ -3,9 +3,9 @@
   <title>Michael Harley / obsolete29.com</title>
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
-  <link href="https://obsolete29.com"/>
+  <link href="https://obsolete29.com/"/>
   <updated>2020-12-20T11:37:48-06:00</updated>
-  <id>https://obsolete29.com</id>
+  <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
     <email>mike@obsolete29.com</email>
@@ -16,9 +16,9 @@
     <link href="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/"/>
     <updated>2020-12-20T11:37:48-06:00</updated>
     <id>https://obsolete29.com/posts/building-my-personal-site-with-eleventy/</id>
+    <image:image xmlns:image="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/og-image/twitter-social-cover.jpg">
     <content type="html">
       This is part one of a multipart series about how I setup my personal web site using Eleventy 
-      <p><a href="https://obsolete29.com/posts/building-my-personal-site-with-eleventy/">more...</a></p>
     </content>
     
   </entry>
@@ -28,9 +28,9 @@
     <link href="https://obsolete29.com/posts/welcome-to-obsolete29-v1/"/>
     <updated>2020-12-18T09:14:17-06:00</updated>
     <id>https://obsolete29.com/posts/welcome-to-obsolete29-v1/</id>
+    <image:image xmlns:image="https://obsolete29.com/posts/welcome-to-obsolete29-v1/og-image/twitter-social-cover.jpg">
     <content type="html">
       I&#39;ve finally finished up the design and development of my site; welcome to version 1.0.0! 
-      <p><a href="https://obsolete29.com/posts/welcome-to-obsolete29-v1/">more...</a></p>
     </content>
     
   </entry>
@@ -40,9 +40,9 @@
     <link href="https://obsolete29.com/posts/please-meet-my-cats/"/>
     <updated>2020-12-15T09:59:58-06:00</updated>
     <id>https://obsolete29.com/posts/please-meet-my-cats/</id>
+    <image:image xmlns:image="https://obsolete29.com/posts/please-meet-my-cats/og-image/twitter-social-cover.jpg">
     <content type="html">
       If you follow me on Twitter, then you already know I have three cats. I&#39;d like to introduce you to them now. Thank you. 
-      <p><a href="https://obsolete29.com/posts/please-meet-my-cats/">more...</a></p>
     </content>
     
   </entry>
@@ -52,9 +52,9 @@
     <link href="https://obsolete29.com/posts/lessons-learned-from-bridgestone/"/>
     <updated>2020-12-15T09:36:07-06:00</updated>
     <id>https://obsolete29.com/posts/lessons-learned-from-bridgestone/</id>
+    <image:image xmlns:image="https://obsolete29.com/posts/lessons-learned-from-bridgestone/og-image/twitter-social-cover.jpg">
     <content type="html">
       After nearly 5 years with Bridgestone, I’ll be leaving the company because of restructuring. Since the announcement, I’ve reflected about my lessons learned that I can take away with me and onto my next opportunity. 
-      <p><a href="https://obsolete29.com/posts/lessons-learned-from-bridgestone/">more...</a></p>
     </content>
     
   </entry>
@@ -64,9 +64,9 @@
     <link href="https://obsolete29.com/posts/learning-web-dev/"/>
     <updated>2020-12-15T09:31:31-06:00</updated>
     <id>https://obsolete29.com/posts/learning-web-dev/</id>
+    <image:image xmlns:image="https://obsolete29.com/posts/learning-web-dev/og-image/twitter-social-cover.jpg">
     <content type="html">
       I&#39;m teaching myself web development and I&#39;ll be writing about my journey. 
-      <p><a href="https://obsolete29.com/posts/learning-web-dev/">more...</a></p>
     </content>
     
   </entry>
@@ -76,9 +76,9 @@
     <link href="https://obsolete29.com/posts/hello-world/"/>
     <updated>2020-12-14T18:58:46-06:00</updated>
     <id>https://obsolete29.com/posts/hello-world/</id>
+    <image:image xmlns:image="https://obsolete29.com/posts/hello-world/og-image/twitter-social-cover.jpg">
     <content type="html">
       Welcome to WordPress. This is your first post. Edit or delete it, then start blogging! 
-      <p><a href="https://obsolete29.com/posts/hello-world/">more...</a></p>
     </content>
     
   </entry>
