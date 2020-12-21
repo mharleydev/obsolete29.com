@@ -46,6 +46,10 @@
   box-sizing: border-box;
 }
 
+ul {
+    padding: 0;
+}
+
 img,
 picture {
     height: auto;
@@ -245,6 +249,21 @@ color: var(--color-accent);
         order: 2;
         font-size: var(--font-size-normal);
     }
+}
+
+.more-writing {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--color-accent);
+    font-weight: var(--weight-normal);
+    text-decoration: none;
+}
+
+.more-writing__symbol {
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
 }
 
 /* Post */
