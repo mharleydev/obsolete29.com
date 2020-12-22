@@ -375,3 +375,15 @@ color: var(--color-accent);
 .site-footer__social-bar-icon:hover {
     transform: scale(1.2);
 }
+
+.site-footer__svg-background-color {
+    fill: var(--color-footer-fore);
+}
+
+.site-footer__svg-foreground-color {
+    fill: var(--color-footer-background)
+}
+
+.site-footer__svg-stroke-color {
+    stroke: var(--color-footer-background);
+}
