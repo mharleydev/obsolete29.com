@@ -224,13 +224,22 @@ color: var(--color-accent);
     }
 }
 
-
-
 .profile__sub-title {
     color: var(--color-accent);
     line-height: var(--line-height-small);
     margin-top: 0px;
     font-weight: 300;
+}
+
+.featured-posts a {
+    color: var(--color-accent);
+    text-decoration: none;
+    box-shadow: var(--shadow-link);
+    transition: box-shadow var(--timing-hover);
+}
+
+.featured-posts__post {
+    font-weight: var(--weight-light);
 }
 
 /* Posts */
