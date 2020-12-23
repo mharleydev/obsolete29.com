@@ -20,6 +20,30 @@
         </url>
     
         <url>
+            <loc>/posts/death-and-dying/</loc>
+            <lastmod>2012-02-04T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/my-first-tattoos/</loc>
+            <lastmod>2012-02-05T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/our-atheist-christian-marriage/</loc>
+            <lastmod>2012-02-13T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/commuting-why-am-i-doing-this/</loc>
+            <lastmod>2012-02-14T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/sharepoint-2013-sorry-you-cant-create-a-new-item-with-quick-edit/</loc>
             <lastmod>2014-04-03T00:00:00.000Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -38,25 +62,7 @@
         </url>
     
         <url>
-            <loc>/posts/hello/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/obsolete29/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/sharepoint/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/sharepoint2013/</loc>
+            <loc>/posts/life/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -74,7 +80,25 @@
         </url>
     
         <url>
-            <loc>/posts/eleventy/</loc>
+            <loc>/posts/obsolete29/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/tattoos/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/sharepoint/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/sharepoint2013/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -86,7 +110,19 @@
         </url>
     
         <url>
+            <loc>/posts/eleventy/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/career/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/cats/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -116,7 +152,7 @@
         </url>
     
         <url>
-            <loc>/posts/cats/</loc>
+            <loc>/posts/hello/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
