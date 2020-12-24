@@ -1,5 +1,5 @@
 /* PrismJS 1.22.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+bash+powershell */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -12,7 +12,7 @@ https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clik
    background: none;
    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-   font-size: .9em;
+   font-size: 1em;
    text-align: left;
    white-space: pre;
    word-spacing: normal;
