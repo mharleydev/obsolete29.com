@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2020-12-22T08:29:53-06:00</updated>
+  <updated>2020-12-28T18:50:57-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -144,5 +144,23 @@
     <updated>2020-12-22T08:29:53-06:00</updated>
     <id>https://obsolete29.com/posts/stlying-inline-svg-images/</id>
     <content type="html">Let&#39;s take a look at how I updated my in-line SVG images so I could style them with an external style sheet</content>
+  </entry>
+  
+  <entry>
+    <title>RSS, a love letter and walkthrough for my Eleventy site</title>
+    <link href="https://obsolete29.com/posts/rss-on-eleventy/"/>
+    <published>2020-12-23T18:00:00-06:00</published>
+    <updated>2020-12-24T11:17:09-06:00</updated>
+    <id>https://obsolete29.com/posts/rss-on-eleventy/</id>
+    <content type="html">I love RSS. I love how uncool it is. Here&#39;s how I configured my 11ty site with a RSS feed.</content>
+  </entry>
+  
+  <entry>
+    <title>My 2020 in review</title>
+    <link href="https://obsolete29.com/posts/2020-in-review/"/>
+    <published>2020-12-28T18:00:00-06:00</published>
+    <updated>2020-12-28T18:50:57-06:00</updated>
+    <id>https://obsolete29.com/posts/2020-in-review/</id>
+    <content type="html">2020 has been a tough year for most. Here are some reflections on my own.</content>
   </entry>
 </feed>
