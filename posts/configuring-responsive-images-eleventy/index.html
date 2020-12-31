@@ -69,14 +69,7 @@
  <article class="post">
 <h1 class="post__header">Configuring responsive and optimized images with Eleventy</h1>
 <section class="post__body">
-   <p>This is part two of a multipart series about how I setup my personal web site using <a href="https://11ty.dev">Eleventy</a>.</p>
-<h2>Posts in the series</h2>
-<ul>
-<li>Part 1: <a href="/posts/building-my-personal-site-with-eleventy/">Building my personal site with Eleventy</a></li>
-<li>Part 2: <a href="/posts/configuring-responsive-images-eleventy/">Configuring responsive and optimized images with Eleventy</a></li>
-</ul>
-<p><em>Disclaimer: I'm new to web development. If you have any constructive criticism for me, please reach out! I'm very open to advice!</em></p>
-<p>Previously, we built our base project and got the initial site setup. Today, let's configure responsive images using the eleventy-img plugin.</p>
+   <p>Previously, we built our base project and got the initial site setup. Today, let's configure responsive images using the eleventy-img plugin.</p>
 <h2>Requirements</h2>
 <p>I want to write about hikes, bicycle trips and vacations on my blog. Those types of posts could have a fair number of images, and I want my site to serve the appropriately sized image for the device viewing the content. There's no need to serve a mobile user the big desktop sized image!</p>
 <p>I store my post images in the same folder as the post markdown. I'll use a short code to reference a highish fidelity image in my blog post. When I build the site, eleventy-img will process my original image by creating four versions of the image. It'll create WebP images in small and large resolutions, and it'll create JPEG images in both small and large resolutions. Finally, it'll replace my short code with the responsive markup.</p>
@@ -102,6 +95,14 @@ Large JPEG: 808x606, 58KB</p>
 <h2>Further reading</h2>
 <p>I found <a href="https://medium.com/@elad/a-complete-guide-for-responsive-images-b13db359c6c7">Complete Guide to Responsive Images!</a> helpful as I was figuring out which markup I wanted to use. I also enjoyed reading <a href="https://jec.fyi/blog/automating-image-optimization-workflow">Automating Image Optimization Workflow</a>.</p>
 <p>Ok, that's it for now! Thanks for reading.</p>
+<blockquote>
+<p>This is part two of a multipart series about how I setup my personal web site using <a href="https://11ty.dev">Eleventy</a>.</p>
+<ul>
+<li>Part 1: <a href="/posts/building-my-personal-site-with-eleventy/">Building my personal site with Eleventy</a></li>
+<li>Part 2: <a href="/posts/configuring-responsive-images-eleventy/">Configuring responsive and optimized images with Eleventy</a></li>
+<li>Part 3: <a href="/posts/rss-on-eleventy/">RSS, a love letter and walkthrough for my Eleventy site</a></li>
+</ul>
+</blockquote>
 
 </section>
 <footer class="post__footer">
