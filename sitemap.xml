@@ -62,6 +62,30 @@
         </url>
     
         <url>
+            <loc>/posts/cathy-samford-fired-for-being-unwed-mother/</loc>
+            <lastmod>2012-04-16T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/quick-hit-death-and-dying/</loc>
+            <lastmod>2012-04-17T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/religious-freedom/</loc>
+            <lastmod>2012-04-18T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/junior-dee-harley/</loc>
+            <lastmod>2012-04-23T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/sharepoint-2013-sorry-you-cant-create-a-new-item-with-quick-edit/</loc>
             <lastmod>2014-04-03T00:00:00.000Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -104,6 +128,12 @@
         </url>
     
         <url>
+            <loc>/posts/genealogy/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/obsolete29/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -128,13 +158,13 @@
         </url>
     
         <url>
-            <loc>/posts/religion/</loc>
+            <loc>/posts/conferences/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>/posts/conferences/</loc>
+            <loc>/posts/religion/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -176,12 +206,6 @@
         </url>
     
         <url>
-            <loc>/posts/indieweb/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>/posts/learning-journal/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -195,6 +219,12 @@
     
         <url>
             <loc>/posts/svg/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/indieweb/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
