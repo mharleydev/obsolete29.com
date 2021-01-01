@@ -86,6 +86,12 @@
         </url>
     
         <url>
+            <loc>/posts/butch-walker-nashville/</loc>
+            <lastmod>2012-04-26T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/sharepoint-2013-sorry-you-cant-create-a-new-item-with-quick-edit/</loc>
             <lastmod>2014-04-03T00:00:00.000Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -104,12 +110,6 @@
         </url>
     
         <url>
-            <loc>/posts/atheism/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>/posts/career/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -122,6 +122,12 @@
         </url>
     
         <url>
+            <loc>/posts/concerts/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/hello/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -129,6 +135,12 @@
     
         <url>
             <loc>/posts/genealogy/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/atheism/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -158,13 +170,13 @@
         </url>
     
         <url>
-            <loc>/posts/conferences/</loc>
+            <loc>/posts/religion/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>/posts/religion/</loc>
+            <loc>/posts/conferences/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
