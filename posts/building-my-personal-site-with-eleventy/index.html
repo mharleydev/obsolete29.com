@@ -79,7 +79,7 @@
 </ul>
 </aside>
 <p>Before I started to write any code, I took note of what I wanted for my new site.</p>
-<h2>Requirements</h2>
+<h2 id="requirements">Requirements</h2>
 <ul>
 <li><strong>Blogging</strong> - First and foremost, I want to write posts and publish content, so the site needs to be configured for blogging. I want to be able to write my posts in markdown and not have to do a lot of custom coding just to write a new post.</li>
 <li><strong>Personal</strong> - I wanted to host my site on a name space that I own. I've been using obsolete29 as an online monikor for ~18 years now ,so I wanted to use that. I use <a href="https://www.hover.com/">Hover</a> as my registrar.</li>
@@ -88,15 +88,15 @@
 <li><strong>Accessible</strong> - I want to be mindful of accessibility and make sure I'm implementing all the best practices.</li>
 <li><strong>Discoverable (SEO)</strong> - I want the site to be discoverable, so I want to be sure I'm implementing SEO best practices.</li>
 </ul>
-<h2>Layout / Design</h2>
+<h2 id="layout-%2F-design">Layout / Design</h2>
 <p>I've spent a lot of time trying to decide on a layout for my site. I've really agonized over it, but I think I've landed on one that I like. Ultimately, I browsed a lot of personal sites of developers I follow on Twitter looking for inspiration. In retrospect, I think I probably did too much borrowing, but I let myself off the hook because I'm new at design, and I'm trying to develop my own sense of design style.</p>
 <p>A good resource that I've seen <a href="https://hybridcattt.com/blog/website-essentials/#inspiration">recommended</a> is <a href="https://humans.fyi/">humans.fyi</a>.</p>
-<h2>Initial mockup</h2>
+<h2 id="initial-mockup">Initial mockup</h2>
 <p>Since I'm using this as an exercise to teach myself web development, I used Visual Studio Code to build out the homepage, the post page, and the style sheets as a static mockup. I'll translate this into <a href="https://www.11ty.dev/docs/languages/nunjucks/">Nunjuck layout files</a> in the next step.</p>
 <p>As I created the markup for my site, I tried my best to implement my best understanding of semantic HTML tags. That understanding is based solely on my reading of the MDN specifications and some articles that I've run across in my web prowling. My main take away is to try to avoid using generic div tags if there's a semantic tag available.</p>
 <p>I'm studying the guidance from the <a href="https://codeguide.co/">Code Guide</a> and <a href="https://cssguidelin.es/">CSS Guidelines</a>, so I attempted to implement as much of this information as possible. I also used this as an opportunity to use <a href="http://getbem.com/introduction/">BEM</a> as a class naming methodology.</p>
 <p>I am using <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> as a starting basis for my styling.</p>
-<h3>Resources</h3>
+<h3 id="resources">Resources</h3>
 <ul>
 <li><a href="https://codeguide.co/">Code Guide</a></li>
 <li><a href="https://cssguidelin.es/">CSS Guidelines</a></li>
@@ -105,9 +105,9 @@
 <li><a href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</a></li>
 <li><a href="https://necolas.github.io/normalize.css/">Normalize.css</a></li>
 </ul>
-<h2>Eleventy</h2>
+<h2 id="eleventy">Eleventy</h2>
 <p>There are many great guides for getting started with Eleventy, but I got started with the documentation from the <a href="https://www.11ty.dev/docs/getting-started/">Eleventy website itself</a> and <a href="https://11ty.rocks/posts/create-your-first-basic-11ty-website/">Create Your First Basic 11ty Website</a> from <a href="/Applications/Joplin.app/Contents/Resources/app.asar/11ty.rocks" title="11ty.rocks">11ty.rocks</a>. Another walk thru that I found valuable was <a href="https://jec.fyi/blog/building-my-static-site-with-11ty">Building Personal Static Site with Eleventy</a> by <a href="https://twitter.com/jecelynyeen">Jecelyn</a>.</p>
-<h3>My 11ty configuration</h3>
+<h3 id="my-11ty-configuration">My 11ty configuration</h3>
 <p>I'm starting out with a basic directory structure.</p>
 <pre class="language-text"><code class="language-text">- src # source files<br>.eleventy.js # eleventy config file<br>.gitignore<br>package.json</code></pre>
 <p>My src directory is will be laid out thusly:</p>
@@ -117,7 +117,7 @@
 <p>I want source images to live in the same directory as the markdown files like this:</p>
 <pre class="language-text"><code class="language-text">- src<br>  - posts<br>    - hello-world<br>      - index.md<br>      - image01.jpg<br>      - image02.jpg</code></pre>
 <p>I want my content to be as platform agnostic as possible. Later, should I want to use Gatsby or some other platform, I want to be able to just grab my posts directory. Then, I know that I have both the markdown text and the images that go with a post.</p>
-<h3>Build the project</h3>
+<h3 id="build-the-project">Build the project</h3>
 <p>I'm just following the <a href="https://11ty.rocks/posts/create-your-first-basic-11ty-website/">11ty.rocks</a> guide if you'd like to reference the original. Let's get our new project setup under version control. I'm using GitHub, so let's create a new repository.</p>
 <ol>
 <li>Create new repo: obsolete29.com-eleventy</li>
@@ -139,7 +139,7 @@
 <ol start="9">
 <li>Let's build! Execute <code>npm run build</code>. We should get an index.html file in our dist folder! Woohoo! Note: Most guides say to run <code>npm build</code> to build your site, but I couldn't get that to work. The Node documentation says to use the run command to run node scripts like I did it. I don't know what that's about!</li>
 </ol>
-<h3>Layouts</h3>
+<h3 id="layouts">Layouts</h3>
 <p>I'm using <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> as my templating language. Nearly all examples and guides I've found on the web uses it. Being able to find many examples of other people using is the biggest benefit for me.</p>
 <p>This part will not be a full walk-thru on how I setup my templates. The <a href="https://www.11ty.dev/docs/templates/">Eleventy documentation</a> on the topic is a great place to start. I'd also recommend taking a look at <a href="https://11ty.rocks">11ty.rocks</a> for more resources on learning this part. Here is a quick overview of how it works though.</p>
 <ol>
