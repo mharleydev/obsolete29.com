@@ -116,43 +116,13 @@
         </url>
     
         <url>
-            <loc>/posts/concerts/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/career/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>/posts/life/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>/posts/hello/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/genealogy/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>/posts/obsolete29/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>/posts/tattoos/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -170,6 +140,18 @@
         </url>
     
         <url>
+            <loc>/posts/eleventy/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/webdev/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>/posts/religion/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -177,6 +159,12 @@
     
         <url>
             <loc>/posts/conferences/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/genealogy/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -194,19 +182,31 @@
         </url>
     
         <url>
-            <loc>/posts/eleventy/</loc>
+            <loc>/posts/tattoos/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>/posts/webdev/</loc>
+            <loc>/posts/concerts/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/hello/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
             <loc>/posts/year-in-review/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/career/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -304,6 +304,12 @@
         <url>
             <loc>/posts/rss-on-eleventy/</loc>
             <lastmod>2020-12-31T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>/posts/ogp-seo-favicons-eleventy/</loc>
+            <lastmod>2021-01-03T13:16:00.000Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     

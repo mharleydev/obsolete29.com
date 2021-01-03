@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2020-12-30T18:00:00-06:00</updated>
+  <updated>2021-01-03T07:16:00-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -234,5 +234,14 @@
     <updated>2020-12-30T18:00:00-06:00</updated>
     <id>https://obsolete29.com/posts/rss-on-eleventy/</id>
     <content type="html">I love RSS. I love how uncool it is. Here&#39;s how I configured my 11ty site with a RSS feed.</content>
+  </entry>
+  
+  <entry>
+    <title>Setup social sharing previews, SEO, and favicons on Eleventy</title>
+    <link href="https://obsolete29.com/posts/ogp-seo-favicons-eleventy/"/>
+    <published>2021-01-03T07:16:00-06:00</published>
+    <updated>2021-01-03T07:16:00-06:00</updated>
+    <id>https://obsolete29.com/posts/ogp-seo-favicons-eleventy/</id>
+    <content type="html">This is part four of how I used 11ty to setup my personal site. This is how I setup open graph protocol, search and favicons.</content>
   </entry>
 </feed>

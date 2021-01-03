@@ -1,1 +1,2 @@
+Sitemap: https://obsolete29.com/sitemap.xml
 User-agent: *

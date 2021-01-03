@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    <link rel="preload" href="/assets/fonts/roboto-v20-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/roboto-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+    <!-- RSS feeds -->
+    <link rel="alternate" href="https://obsolete29.com/feed/feed.xml" type="application/atom+xml" title="Michael Harley / obsolete29.com">
+    <!-- SEO -->
+    <title>Setup social sharing previews, SEO, and favicons on Eleventy</title>
+    
+        
+    
+    <link rel="canonical" href="https://obsolete29.com/posts/ogp-seo-favicons-eleventy/">
+    <meta name="description" content="This is part four of how I used 11ty to setup my personal site. This is how I setup open graph protocol, search and favicons.">
+    <!-- Open graph -->
+    <meta property="og:title" content="Setup social sharing previews, SEO, and favicons on Eleventy">
+    <meta property="og:description" content="This is part four of how I used 11ty to setup my personal site. This is how I setup open graph protocol, search and favicons.">
+      
+        
+    
+    <meta property="og:type" content="article">
+    <meta name="image" property="og:image" content="https://obsolete29.com/posts/ogp-seo-favicons-eleventy/og-image/og-social-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="article:author" name="author" content="Michael Harley">
+    <meta property="article:published_time" content="Sun Jan 03 2021 07:16:00 GMT-0600 (Central Standard Time)">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Setup social sharing previews, SEO, and favicons on Eleventy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@obsolete29">
+    <meta name="twitter:description" content="This is part four of how I used 11ty to setup my personal site. This is how I setup open graph protocol, search and favicons.">
+    <meta name="twitter:image" content="https://obsolete29.com/posts/ogp-seo-favicons-eleventy/og-image/og-social-cover.jpg">
+    <meta name="twitter:creator" content="@obsolet29">
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://beetle.obsolete29.com/script.js" data-site="PAQJTFMK" defer></script>
+    <!-- / Fathom -->
+</head>
+<body>
+    <div class="page-stripe"></div>
+    <header>
+        <div class="container">
+            <nav class="site-top-nav">
+                <a class="site-top-nav__link site-top-nav__link--home"href="/"><span class="site-top-nav__home-character">></span>obsolete29.com</a>
+                <a class="site-top-nav__link" href="/"><img class="site-top-nav__link-img" src="/assets/img/profile-photo-small.jpg" alt=""></a>
+                <section class="site-top-nav__links">
+                    <a href="/posts/" class="site-top-nav__link">writing</a>
+                </section>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <div class="container">
+             
+ <article class="post">
+<h1 class="post__header">Setup social sharing previews, SEO, and favicons on Eleventy</h1>
+<section class="post__body">
+   <p>Today I want to work on a few things so that I'm ready to start sharing posts. I'm going to setup Open Graph protocol, SEO, and favicons on the site.</p>
+<h2>Social sharing previews</h2>
+<p>You know when you share a website on a social media site like Facebook, Twitter, or LinkedIn, and a little preview is generated for the link? That functionality is provided by the <a href="https://ogp.me">Open Graph protocol</a>. Extending the site to participate in Open Graph is pretty straight forward. I just need to add some meta tags to the head of my markup.</p>
+<p>I want to support the main Open Graph tags, which is used by most sites, including Facebook. Twitter has it's own set of tags so I want to be sure to support their implementation as well since it's my main social network.</p>
+<p>Here's the markup I'm using in my base.njk layout file:</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- src/_includes/base.njk --></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>  <span class="token comment">&lt;!-- Open graph --></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ title }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ desc or title }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:type<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>article<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ cover }}<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:width<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1200<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:height<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>630<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token comment">&lt;!-- Twitter --></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ title }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:card<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>summary_large_image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:site<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@obsolete29<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ desc or title }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ cover }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:creator<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@obsolete29<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></code></pre>
+<p>Here's the front matter from index.njk file. At run time, Eleventy will take these values...</p>
+<pre class="language-text"><code class="language-text">---<br>title: Michael Harley, chief goblin herder<br>desc: "I enjoy hiking, biking, foosball, and reading. <br>    I work with Power Platform, Powershell, Sharepoint, and I'm learning web development."<br>layout: base.njk<br>cover: "https://obsolete29.com/assets/img/social-cover.jpg"<br>---</code></pre>
+<p>... and output this markup at build time:</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- index.html --></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>  <span class="token comment">&lt;!-- Open graph --></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Michael Harley, chief goblin herder<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>I enjoy hiking, biking, foosball, and reading. <br>    I work with Power Platform, Powershell, Sharepoint, and I<span class="token punctuation">'</span>\m learning web development.<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:type<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>article<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://obsolete29.com/assets/img/social-cover.jpg<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:width<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>1200<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:height<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>630<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token comment">&lt;!-- Twitter --></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:title<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Michael Harley, chief goblin herder<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:card<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>summary_large_image<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:site<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@obsolete29<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>I enjoy hiking, biking, foosball, and reading. <br>    I work with Power Platform, Powershell, Sharepoint, and I<span class="token punctuation">'</span>\m learning web development.<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://obsolete29.com/assets/img/social-cover.jpg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:creator<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>@obsolete29<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></code></pre>
+<p>I just have to make sure that all template files include the title, desc, and cover in the front matter of the file.</p>
+<h3>Validate</h3>
+<p>Yep, you already know what's coming next. Validate!</p>
+<ul>
+<li><a href="https://cards-dev.twitter.com/validator">Twitter card validator</a></li>
+<li><a href="https://www.linkedin.com/post-inspector/">LinkedIn post inspector</a></li>
+<li><a href="https://developers.facebook.com/tools/debug/">Facebook sharing debugger</a></li>
+<li><a href="https://www.opengraph.xyz/">OpenGraph.xyz</a></li>
+</ul>
+<h2>SEO</h2>
+<p>There are three tags I'm concerning myself with for SEO: the title tag, a description meta tag and a canonical link tag (<a href="https://yoast.com/rel-canonical/">rel=canonical: the ultimate guide</a>).</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- index.html --></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br> <span class="token comment">&lt;!-- SEO --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span>{{ title }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>description<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ desc }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>canonical<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ metadata.url }}{{ page.url }}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></code></pre>
+<h4>Validate</h4>
+<ul>
+<li><a href="https://web.dev">Lighthouse</a></li>
+<li><a href="https://www.seobility.net/en/seocheck/">Free SEO Checker</a></li>
+</ul>
+<h3>Sitemap.xml</h3>
+<p>I consider the sitemap as part of search. In my research, sitemaps don't seem that important. Even reading the <a href="https://developers.google.com/search/docs/advanced/sitemaps/overview">Google documentation</a> about sitemaps says you <em>may</em> need a sitemap. I don't feel that my site is very large or complex but if it helps search engines surface my content, then why not? Setting it up on Eleventy is really easy so let's do it.</p>
+<p>I followed <a href="https://www.belter.io/eleventy-sitemap/">Duncan's walkthrough</a> so feel free to go there and read his content. Here is what I did.</p>
+<p>I created a new file called sitemap.njk in src directory.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- src/sitemap.njk --></span><br>---<br>permalink: /sitemap.xml<br>eleventyExcludeFromCollections: true<br>---<br><span class="token prolog">&lt;?xml version="1.0" encoding="utf-8"?></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>urlset</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.sitemaps.org/schemas/sitemap/0.9<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    {% for page in collections.all %}<br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>url</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>loc</span><span class="token punctuation">></span></span>{{ site.url }}{{ page.url | url }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>loc</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>lastmod</span><span class="token punctuation">></span></span>{{ page.date.toISOString() }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>lastmod</span><span class="token punctuation">></span></span><br>            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>changefreq</span><span class="token punctuation">></span></span>{{ page.data.changeFreq or <span class="token entity named-entity" title="&quot;">&amp;quot;</span>monthly<span class="token entity named-entity" title="&quot;">&amp;quot;</span> }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>changefreq</span><span class="token punctuation">></span></span><br>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>url</span><span class="token punctuation">></span></span><br>    {% endfor %}<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>urlset</span><span class="token punctuation">></span></span></code></pre>
+<p>Now when I build the site, Eleventy will generate sitemap.xml.</p>
+<h3>Robots.txt</h3>
+<p>I'm going to setup robots.txt while I'm here so the search bots know about it.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- src/robots.njk --></span><br>---<br>layout: false<br>permalink: robots.txt<br>eleventyExcludeFromCollections: true<br>---<br>Sitemap: {{ metadata.url }}/sitemap.xml<br>User-agent: *</code></pre>
+<p>The final piece of our search configuration is submitting our site to <a href="https://search.google.com/search-console/about">Google</a> and <a href="https://www.bing.com/webmaster/home/mysites">Bing</a>.</p>
+<h2>Favicons</h2>
+<p>Favicons are the little images that show up on the browser tab when you're on a particular site (among other places). I didn't do much of a deep dive on the topic myself. I've just done the basics. If you do want to do more of a deep dive, check out <a href="https://jec.fyi/blog/favicons-manifest">How many favicons should you have in your site?</a>. She really goes into a lot more detail. I also found <a href="https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs">How to Favicon in 2021</a> an interesting read.</p>
+<p>Here are the steps I took.</p>
+<p>First, I went to <a href="https://favicon.io/">favicon.io</a>. I was creating an icon from a PNG file so I selected that option and uploaded the image. The site spits out the image with some basic instructions. I placed my favicon images in /assets/img/favicon/.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&lt;!-- src/_includes/base.njk --></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br>    <span class="token comment">&lt;!-- favicons --></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>apple-touch-icon<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>180x180<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/favicon/apple-touch-icon.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>32x32<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/favicon/favicon-32x32.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>icon<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>image/png<span class="token punctuation">"</span></span> <span class="token attr-name">sizes</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>16x16<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/favicon/favicon-16x16.png<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manifest<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/favicon/site.webmanifest<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>shortcut icon<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/favicon/favicon.ico<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span></code></pre>
+<p>I updated the site.webmanifest file provided by <a href="http://favicon.io">favicon.io</a> thusly:</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>    <span class="token property">"name"</span><span class="token operator">:</span><span class="token string">"Michael Harley"</span><span class="token punctuation">,</span><br>    <span class="token property">"short_name"</span><span class="token operator">:</span><span class="token string">"Michael Harley"</span><span class="token punctuation">,</span><br>    <span class="token property">"icons"</span><span class="token operator">:</span><br>    <span class="token punctuation">[</span><br>        <span class="token punctuation">{</span><br>            <span class="token property">"src"</span><span class="token operator">:</span><span class="token string">"/assets/img/favicon/android-chrome-192x192.png"</span><span class="token punctuation">,</span><br>            <span class="token property">"sizes"</span><span class="token operator">:</span><span class="token string">"192x192"</span><span class="token punctuation">,</span><br>            <span class="token property">"type"</span><span class="token operator">:</span><span class="token string">"image/png"</span><br>        <span class="token punctuation">}</span><span class="token punctuation">,</span><br>        <span class="token punctuation">{</span><br>            <span class="token property">"src"</span><span class="token operator">:</span><span class="token string">"/assets/img/favicon/android-chrome-512x512.png"</span><span class="token punctuation">,</span><br>            <span class="token property">"sizes"</span><span class="token operator">:</span><span class="token string">"512x512"</span><span class="token punctuation">,</span><br>            <span class="token property">"type"</span><span class="token operator">:</span><span class="token string">"image/png"</span><br>            <span class="token punctuation">}</span><br>    <span class="token punctuation">]</span><span class="token punctuation">,</span><br>    <span class="token property">"theme_color"</span><span class="token operator">:</span><span class="token string">"#ffffff"</span><span class="token punctuation">,</span><br>    <span class="token property">"background_color"</span><span class="token operator">:</span><span class="token string">"#ffffff"</span><span class="token punctuation">,</span><br>    <span class="token property">"display"</span><span class="token operator">:</span><span class="token string">"standalone"</span><br><span class="token punctuation">}</span></code></pre>
+<h3>Validate</h3>
+<p>Say it with me. Validate!</p>
+<ul>
+<li><a href="https://realfavicongenerator.net/favicon_checker">Favicon checker</a>.</li>
+</ul>
+<p>Ok, that's it for today. Thanks for reading my post!</p>
+<blockquote>
+<p>This is part four of a multipart series about how I setup my personal web site using <a href="https://11ty.dev">Eleventy</a>.</p>
+<ul>
+<li>Part 1: <a href="/posts/building-my-personal-site-with-eleventy/">Building my personal site with Eleventy</a></li>
+<li>Part 2: <a href="/posts/configuring-responsive-images-eleventy/">Configuring responsive and optimized images with Eleventy</a></li>
+<li>Part 3: <a href="/posts/rss-on-eleventy/">RSS, a love letter and walkthrough for my Eleventy site</a></li>
+<li>Part 4: <a href="/posts/opg-seo-favicons-on-eleventy/">Setup social sharing previews, SEO, and favicons on Eleventy</a></li>
+</ul>
+</blockquote>
+
+</section>
+<footer class="post__footer">
+    <p class="post__metadata">
+            <svg class="post__metadata-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                <line x1="7" y1="7" x2="7" y2="7"></line>
+            </svg>
+            <span class="post__metadata-detail">
+                
+                
+                
+                
+                    
+                        <a class="post-tag" href="/posts/obsolete29/">#obsolete29</a>
+                    
+                
+                
+                    
+                        <a class="post-tag" href="/posts/eleventy/">#eleventy</a>
+                    
+                
+                
+                    
+                        <a class="post-tag" href="/posts/webdev/">#webdev</a>
+                    
+                
+            </span>
+    </p>
+    <p class="post__metadata">
+            <svg class="post__metadata-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span class="post__metadata-detail">2021-01-03 </span>
+    </p>
+    <p class="post__metadata">
+            <svg class="post__metadata-icon" overflow="hidden" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <circle cx="48" cy="30" r="16"></circle>
+                    <path d=" M 80 82 L 80 66 C 80 63.6 78.8 61.2 76.8 59.6 C 72.4 56 66.8 53.6 61.2 52 C 57.2 50.8 52.8 50 48 50 C 43.6 50 39.2 50.8 34.8 52 C 29.2 53.6 23.6 56.4 19.2 59.6 C 17.2 61.2 16 63.6 16 66 L 16 82 L 80 82 Z"></path>
+                </g>
+            </svg>
+            <span class="post__metadata-detail">Michael Harley</span>
+    </p>
+</footer>
+<section class="post__discussion">
+    <a class="post__discussion-link" href="https://twitter.com/search?q=https://obsolete29.com/posts/ogp-seo-favicons-eleventy/">
+        Discuss on Twitter
+        <svg class="post__discussion-icon" aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+        </svg>
+    </a>
+</section>
+</article>
+        </div>
+    </main>
+
+
+
+
+    <footer class="site-footer" >
+        <div class="container">
+            <nav class="site-footer__social-bar">
+                <a href="https://twitter.com/obsolete29" rel="me">
+                    <svg class="site-footer__social-bar-icon" 
+                        xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" 
+                        role="img" viewBox="0 0 512 512">
+                        <rect class="site-footer__svg-background-color" width="512" 
+                            height="512" rx="15%" />
+                        <path class="site-footer__svg-foreground-color" 
+                            d="M437 152a72 72 0 01-40 12a72 72 0 
+                            0032-40a72 72 0 01-45 17a72 72 0 00-122 65a200 200 0 
+                            01-145-74a72 72 0 0022 94a72 72 0 01-32-7a72 72 0 0056 
+                            69a72 72 0 01-32 1a72 72 0 0067 50a200 200 0 01-105 
+                            29a200 200 0 00309-179a200 200 0 0035-37"/>
+                    </svg>
+                </a>
+                <a href="mailto:mike@obsolete29.com" rel="me">
+                    <svg class="site-footer__social-bar-icon" 
+                        xmlns="http://www.w3.org/2000/svg" aria-label="ProtonMail" 
+                        role="img" viewBox="0 0 512 512">
+                        <rect class="site-footer__svg-background-color" width="512" 
+                            height="512" rx="15%" />
+                        <g class="site-footer__svg-foreground-color">
+                            <path d="M259 77s-108-6-131 114v79s0 12 23 29c28 17 91 
+                                68 108 68s74-51 102-69c23-16 23-28 23-28v-79C361 71 
+                                259 77 259 77zm68 159H185v-45c11-57 74-57 74-57s57 
+                                0 68 57v45z"/>
+                            <path d="M259 384l-34-12-97-68v120s0 11 17 11h222c11 0 
+                                17-11 17-11V304l-97 69-28 11z"/>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://github.com/mharleydev" rel="me">
+                    <svg class="site-footer__social-bar-icon" 
+                        xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" 
+                        role="img" viewBox="0 0 512 512">
+                        <rect class="site-footer__svg-background-color" width="512" 
+                            height="512" rx="15%" />
+                        <path class="site-footer__svg-foreground-color" d="M335 
+                            499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 
+                            16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 
+                            1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 
+                            16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 
+                            3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 
+                            14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 
+                            10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/mharleydev/" rel="me">
+                    <svg class="site-footer__social-bar-icon" 
+                        xmlns="http://www.w3.org/2000/svg" aria-label="LinkedIn" 
+                        role="img" viewBox="0 0 512 512">
+                        <rect class="site-footer__svg-background-color" width="512" 
+                            height="512" rx="15%"/>
+                        <circle cx="142" cy="138" r="37"/>
+                        <path class="site-footer__svg-stroke-color" stroke-width="66" 
+                            d="M244 194v198M142 194v198"/>
+                        <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 
+                            45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32"/>
+                    </svg>
+                </a>
+                <a href="/feed/feed.xml">
+                    <svg class="site-footer__social-bar-icon" 
+                        xmlns="http://www.w3.org/2000/svg" aria-label="RSS" role="img" 
+                            viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="site-footer__svg-background-color" height="512" rx="15%" width="512"/>
+                        <circle class="site-footer__svg-background-color" cx="145" cy="367" r="35"/>
+                        <path class="site-footer__svg-stroke-color" d="m109 241c89 0 
+                            162 73 162 162m114 0c0-152-124-276-276-276" fill="none" 
+                            stroke-width="60"/>
+                    </svg>
+                </a>
+            </nav>
+            <p class="site-footer__disclaimer">
+                © 2020 Michael Harley • Powered by <a class="site-footer__link" 
+                    href="https://www.11ty.dev/">Eleventy</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
