@@ -110,18 +110,6 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/atheism/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/concerts/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://obsolete29.com/posts/career/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -135,12 +123,6 @@
     
         <url>
             <loc>https://obsolete29.com/posts/hello/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/obsolete29/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -164,7 +146,13 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/religion/</loc>
+            <loc>https://obsolete29.com/posts/obsolete29/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/tattoos/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -182,7 +170,13 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/tattoos/</loc>
+            <loc>https://obsolete29.com/posts/religion/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/atheism/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -206,13 +200,19 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/year-in-review/</loc>
+            <loc>https://obsolete29.com/posts/concerts/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
             <loc>https://obsolete29.com/posts/cats/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/indieweb/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -236,7 +236,7 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/indieweb/</loc>
+            <loc>https://obsolete29.com/posts/year-in-review/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>

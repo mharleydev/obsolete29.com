@@ -1,7 +1,7 @@
 /* base
    ========================================================================== */
 
-@font-face {
+   @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -100,10 +100,10 @@ a {
 blockquote {
     background: var(--color-background);
     border-left: 10px solid var(--color-primary-shade);
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
+    margin: 1.5em 0;
+    padding: 0.5em 20px;
     quotes: "\201C""\201D""\2018""\2019";
-  }
+}
 
 h1 {
     color: var(--color-title);
@@ -337,7 +337,6 @@ color: var(--color-accent);
     box-shadow: var(--shadow-link-hover);
 }
 
-  
 .post__figure-caption {
     font-style: italic;
     font-size: var(--font-size-small);
@@ -390,9 +389,10 @@ color: var(--color-accent);
     width: 22px;
 }
 
-.post__50-percent-container {
-    width: 50%;
-    display: flex;
+.post__callout {
+  background: var(--color-background);
+  margin: 1.5em 0;
+  padding: 0.5em 20px;
 }
 
 /* Footer */
