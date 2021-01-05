@@ -128,13 +128,19 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/genealogy/</loc>
+            <loc>https://obsolete29.com/posts/concerts/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
             <loc>https://obsolete29.com/posts/hello/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/genealogy/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -200,7 +206,7 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/concerts/</loc>
+            <loc>https://obsolete29.com/posts/year-in-review/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -231,12 +237,6 @@
     
         <url>
             <loc>https://obsolete29.com/posts/indieweb/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/year-in-review/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
