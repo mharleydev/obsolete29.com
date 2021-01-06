@@ -52,17 +52,26 @@
         <div class="container">
             <nav class="site-top-nav">
                 <a class="site-top-nav__link site-top-nav__link--home"href="/"><span class="site-top-nav__home-character">></span>obsolete29.com</a>
-                <a class="site-top-nav__link" href="/"><img class="site-top-nav__link-img" src="/assets/img/profile-photo-small.jpg" alt=""></a>
+                <a class="site-top-nav__link" href="/">
+                <picture>
+      <source type="image/webp" srcset="/assets/img/blog/6bda1679-64.webp 64w" sizes="100vw">
+  <source type="image/jpeg" srcset="/assets/img/blog/6bda1679-64.jpeg 64w" sizes="100vw">
+      <img
+        class=site-top-nav__link-img
+        src="/assets/img/blog/6bda1679-64.jpeg"
+        width="64"
+        height="64"
+        alt="Mike holding a mug of coffee. Black and white."
+        loading="lazy"
+        decoding="async">
+    </picture>
+                </a>
                 <section class="site-top-nav__links">
                     <a href="/posts/" class="site-top-nav__link">writing</a>
                 </section>
             </nav>
         </div>
     </header>
-
-
-
-
     <main>
         <div class="container">
              
@@ -127,9 +136,6 @@
 </article>
         </div>
     </main>
-
-
-
 
     <footer class="site-footer" >
         <div class="container">
