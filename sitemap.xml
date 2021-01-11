@@ -98,6 +98,12 @@
         </url>
     
         <url>
+            <loc>https://obsolete29.com/posts/cycling-the-natchez-trace/</loc>
+            <lastmod>2014-11-02T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
             <loc>https://obsolete29.com/</loc>
             <lastmod>2020-12-15T00:42:15.421Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -106,12 +112,6 @@
         <url>
             <loc>https://obsolete29.com/posts/</loc>
             <lastmod>2020-12-15T03:29:27.623Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/atheism/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
@@ -129,6 +129,12 @@
     
         <url>
             <loc>https://obsolete29.com/posts/webdev/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/atheism/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -152,19 +158,25 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/hello/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://obsolete29.com/posts/genealogy/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
+            <loc>https://obsolete29.com/posts/hello/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>https://obsolete29.com/posts/tattoos/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/religion/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -188,12 +200,6 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/religion/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://obsolete29.com/posts/sharepoint/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -207,6 +213,24 @@
     
         <url>
             <loc>https://obsolete29.com/posts/year-in-review/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/cycling/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/natchez-trace/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/trip-report/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -317,6 +341,12 @@
             <loc>https://obsolete29.com/posts/automated-social-sharing-images-eleventy-puppeteer/</loc>
             <lastmod>2021-01-09T13:00:03.106Z</lastmod>
             <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/learning-journal/</loc>
+            <lastmod>2021-01-09T23:41:40.881Z</lastmod>
+            <changefreq>weekly</changefreq>
         </url>
     
 </urlset>

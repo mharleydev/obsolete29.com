@@ -337,6 +337,10 @@ color: var(--color-accent);
     box-shadow: var(--shadow-link-hover);
 }
 
+.post__img:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 .post__figure-caption {
     font-style: italic;
     font-size: var(--font-size-small);
