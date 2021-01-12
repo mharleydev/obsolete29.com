@@ -116,12 +116,6 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/atheism/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://obsolete29.com/posts/obsolete29/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -135,6 +129,12 @@
     
         <url>
             <loc>https://obsolete29.com/posts/webdev/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/atheism/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -176,13 +176,13 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/genealogy/</loc>
+            <loc>https://obsolete29.com/posts/hello/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/hello/</loc>
+            <loc>https://obsolete29.com/posts/genealogy/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
