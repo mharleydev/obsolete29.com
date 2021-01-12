@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2021-01-09T07:00:03-06:00</updated>
+  <updated>2021-01-12T17:12:28-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -261,5 +261,14 @@
     <updated>2021-01-09T07:00:03-06:00</updated>
     <id>https://obsolete29.com/posts/automated-social-sharing-images-eleventy-puppeteer/</id>
     <content type="html">I recently figured out how to generate social sharing (Open Graph protocol) preview images using Puppeteer on my Eleventy site. This is what I did!</content>
+  </entry>
+  
+  <entry>
+    <title>Using border-top and border-image to create a linear gradient top border</title>
+    <link href="https://obsolete29.com/posts/linear-gradient-top-border/"/>
+    <published>2021-01-12T17:12:28-06:00</published>
+    <updated>2021-01-12T17:12:28-06:00</updated>
+    <id>https://obsolete29.com/posts/linear-gradient-top-border/</id>
+    <content type="html">I was struggling to create a linear gradient top border for a call out section. Here&#39;s the solution I landed on.</content>
   </entry>
 </feed>
