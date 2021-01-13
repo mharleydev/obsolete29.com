@@ -398,7 +398,7 @@ color: var(--color-accent);
   margin: 1.5em 0;
   padding: 0.5em 20px;
   border-top: 3px solid;
-  border-image: linear-gradient(to right,#f1f5f7,#d80b77) 30 0 0 0;
+  border-image: linear-gradient(to right,#f1f5f7,#d80b77) 1 0 0 0;
 }
 
 /* Footer */
