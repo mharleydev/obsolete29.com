@@ -116,6 +116,12 @@
         </url>
     
         <url>
+            <loc>https://obsolete29.com/posts/atheism/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>https://obsolete29.com/posts/obsolete29/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -134,18 +140,6 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/concerts/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/atheism/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://obsolete29.com/posts/career/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -158,7 +152,7 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/hello/</loc>
+            <loc>https://obsolete29.com/posts/concerts/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -182,6 +176,12 @@
         </url>
     
         <url>
+            <loc>https://obsolete29.com/posts/hello/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>https://obsolete29.com/posts/genealogy/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -200,6 +200,12 @@
         </url>
     
         <url>
+            <loc>https://obsolete29.com/posts/tattoos/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
             <loc>https://obsolete29.com/posts/mealprep/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -207,12 +213,6 @@
     
         <url>
             <loc>https://obsolete29.com/posts/receipes/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/tattoos/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -352,6 +352,18 @@
         <url>
             <loc>https://obsolete29.com/posts/linear-gradient-top-border/</loc>
             <lastmod>2021-01-12T23:12:28.437Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/signup/</loc>
+            <lastmod>2021-01-14T13:32:13.599Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/signup/signup-confirmation/</loc>
+            <lastmod>2021-01-14T14:02:43.579Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
