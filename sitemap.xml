@@ -116,12 +116,6 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/atheism/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://obsolete29.com/posts/obsolete29/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
@@ -140,19 +134,7 @@
         </url>
     
         <url>
-            <loc>https://obsolete29.com/posts/career/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/life/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/concerts/</loc>
+            <loc>https://obsolete29.com/posts/atheism/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -171,6 +153,24 @@
     
         <url>
             <loc>https://obsolete29.com/posts/trip-report/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/career/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/life/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/concerts/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -195,12 +195,6 @@
     
         <url>
             <loc>https://obsolete29.com/posts/css/</loc>
-            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
-            <changefreq>weekly</changefreq>
-        </url>
-    
-        <url>
-            <loc>https://obsolete29.com/posts/tattoos/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -237,6 +231,12 @@
     
         <url>
             <loc>https://obsolete29.com/posts/sharepoint2013/</loc>
+            <lastmod>2020-12-15T03:37:41.062Z</lastmod>
+            <changefreq>weekly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/tattoos/</loc>
             <lastmod>2020-12-15T03:37:41.062Z</lastmod>
             <changefreq>weekly</changefreq>
         </url>
@@ -364,6 +364,12 @@
         <url>
             <loc>https://obsolete29.com/signup/signup-confirmation/</loc>
             <lastmod>2021-01-14T14:02:43.579Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://obsolete29.com/posts/lessons-learned-from-my-job-search/</loc>
+            <lastmod>2021-01-17T17:07:11.068Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     

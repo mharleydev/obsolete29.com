@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2021-01-12T17:12:28-06:00</updated>
+  <updated>2021-01-17T11:07:11-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -270,5 +270,14 @@
     <updated>2021-01-12T17:12:28-06:00</updated>
     <id>https://obsolete29.com/posts/linear-gradient-top-border/</id>
     <content type="html">I was struggling to create a linear gradient top border for a call out section. Here&#39;s the solution I landed on.</content>
+  </entry>
+  
+  <entry>
+    <title>Lessons learned from my job search</title>
+    <link href="https://obsolete29.com/posts/lessons-learned-from-my-job-search/"/>
+    <published>2021-01-17T11:07:11-06:00</published>
+    <updated>2021-01-17T11:07:11-06:00</updated>
+    <id>https://obsolete29.com/posts/lessons-learned-from-my-job-search/</id>
+    <content type="html">My last day at Bridgestone was Monday, December 7th. These are my observations from my job search.</content>
   </entry>
 </feed>
