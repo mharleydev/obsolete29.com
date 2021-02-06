@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2021-01-17T11:07:11-06:00</updated>
+  <updated>2021-02-06T11:02:25-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -279,5 +279,14 @@
     <updated>2021-01-17T11:07:11-06:00</updated>
     <id>https://obsolete29.com/posts/lessons-learned-from-my-job-search/</id>
     <content type="html">My last day at Bridgestone was Monday, December 7th. These are my observations from my job search.</content>
+  </entry>
+  
+  <entry>
+    <title>Getting started with home automation and my initial thoughts</title>
+    <link href="https://obsolete29.com/posts/initial-thoughts-on-home-automation/"/>
+    <published>2021-02-06T11:02:25-06:00</published>
+    <updated>2021-02-06T11:02:25-06:00</updated>
+    <id>https://obsolete29.com/posts/initial-thoughts-on-home-automation/</id>
+    <content type="html">I have been interested in home automation for a long time and have finally decided to dip my toe in. Here are some quick notes about my thoughts so far.</content>
   </entry>
 </feed>
