@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2021-02-13T09:29:24-06:00</updated>
+  <updated>2021-02-20T09:57:52-06:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -297,5 +297,14 @@
     <updated>2021-02-13T09:29:24-06:00</updated>
     <id>https://obsolete29.com/posts/review-the-wire/</id>
     <content type="html">Rachelle and I just finished watching The Wire and I think it&#39;s still a great show!</content>
+  </entry>
+  
+  <entry>
+    <title>Leaning into Power Platform</title>
+    <link href="https://obsolete29.com/posts/leaning-into-power-platform/"/>
+    <published>2021-02-20T09:57:52-06:00</published>
+    <updated>2021-02-20T09:57:52-06:00</updated>
+    <id>https://obsolete29.com/posts/leaning-into-power-platform/</id>
+    <content type="html">I have a confession. I&#39;m a SharePoint Developer and I don&#39;t like Power Platform; I&#39;d rather do it in PowerShell.</content>
   </entry>
 </feed>
