@@ -4,7 +4,7 @@
   <subtitle>Building web sites, infosec, hiking, biking, powershell, sharepoint, foosball.</subtitle>
   <link href="https://obsolete29.com/feed/feed.xml" rel="self"/>
   <link href="https://obsolete29.com/"/>
-  <updated>2021-02-20T09:57:52-06:00</updated>
+  <updated>2021-03-30T09:27:29-05:00</updated>
   <id>https://obsolete29.com/</id>
   <author>
     <name>Michael Harley</name>
@@ -306,5 +306,14 @@
     <updated>2021-02-20T09:57:52-06:00</updated>
     <id>https://obsolete29.com/posts/leaning-into-power-platform/</id>
     <content type="html">I have a confession. I&#39;m a SharePoint Developer and I don&#39;t like Power Platform; I&#39;d rather do it in PowerShell.</content>
+  </entry>
+  
+  <entry>
+    <title>Hiking the Black Mountain section of the Cumberland Trail</title>
+    <link href="https://obsolete29.com/posts/hiking-black-mountain-2021/"/>
+    <published>2021-03-30T09:27:29-05:00</published>
+    <updated>2021-03-30T09:27:29-05:00</updated>
+    <id>https://obsolete29.com/posts/hiking-black-mountain-2021/</id>
+    <content type="html">I hiked Black Mountain on March 27th 2021. Here is my trip report.</content>
   </entry>
 </feed>
